@@ -1,0 +1,56 @@
+{
+    "default": {
+        "author": "ProTibet",
+        "firstScene": "RoadToKiber",
+        "sceneFadeDuration": 1000
+    },
+
+    "scenes": {
+        "RoadToKiber": {
+            "title": "Road to Kiber",
+            "type": "equirectangular",
+			"panorama": "http://i.imgur.com/pqqS10T.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 170,
+                    "type": "info",
+                    "text": "This road leads to Kiber"
+                },
+                {
+                    "pitch": -3,
+                    "yaw": -26,
+                    "type": "scene",
+                    "text": "Path to Kee",
+                    "sceneId": "KeeOuterGate"
+                }
+            ]
+        },
+
+        "KeeOuterGate": {
+            "title": "Kee outer gate",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/IoCySNG.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 80,
+            "hotSpots": [
+                {
+                    "pitch": -10,
+                    "yaw": 72,
+                    "type": "info",
+                    "text": "Proceed to Kee Gompa"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -92,
+                    "type": "scene",
+                    "text": "Road To Kiber",
+                    "sceneId": "RoadToKiber"
+                }
+            ]
+        }
+    }
+}
