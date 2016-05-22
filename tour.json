@@ -1,7 +1,7 @@
 {
     "default": {
         "author": "ProTibet",
-        "firstScene": "RoadToKiber",
+        "firstScene": "SchoolCourtyard",
         "sceneFadeDuration": 1000
     },
 
@@ -24,12 +24,12 @@
                     "yaw": -26,
                     "type": "scene",
                     "text": "Path to Kee",
-                    "sceneId": "KeeOuterGate"
+                    "sceneId": "OuterGate"
                 }
             ]
         },
 
-        "KeeOuterGate": {
+        "OuterGate": {
             "title": "Kee outer gate",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/IoCySNG.jpg",
@@ -40,8 +40,9 @@
                 {
                     "pitch": -10,
                     "yaw": 72,
-                    "type": "info",
-                    "text": "Proceed to Kee Gompa"
+                    "type": "scene",
+                    "text": "Proceed to Kee Gompa",
+                    "sceneId": "SchoolCourtyard"
                 },
                 {
                     "pitch": -10,
@@ -51,6 +52,505 @@
                     "sceneId": "RoadToKiber"
                 }
             ]
+        },
+
+		"SchoolCourtyard": {
+            "title": "School courtyard",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/YAjk3vC.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 108,
+            "hotSpots": [
+                {
+                    "pitch": -2,
+                    "yaw": 52,
+                    "type": "scene",
+                    "text": "Visit classroom",
+                    "sceneId": "Classroom"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -108,
+                    "type": "scene",
+                    "text": "To outer gate",
+                    "sceneId": "OuterGate"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -120,
+                    "type": "scene",
+                    "text": "To inner gate",
+                    "sceneId": "InnerGate"
+                },
+                {
+                    "pitch": 25,
+                    "yaw": 36,
+                    "type": "scene",
+                    "text": "Climb the hill",
+                    "sceneId": "HillAboveKee"
+                }
+            ]
+        },
+
+		"HillAboveKee": {
+            "title": "Hill above Kee",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/jSUVKGQ.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 108,
+            "hotSpots": [
+				{
+                    "pitch": -24,
+                    "yaw": 110,
+                    "type": "scene",
+                    "text": "Back To Kee",
+                    "sceneId": "SchoolCourtyard"
+                },
+				{
+                    "pitch": -18,
+                    "yaw": 130,
+                    "type": "info",
+                    "text": "Stupa"
+                },
+				{
+                    "pitch": -17,
+                    "yaw": -32,
+                    "type": "info",
+                    "text": "Gete Village"
+                }
+            ]
+        },
+
+		"InnerGate": {
+            "title": "Gate to monastery center",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/gp4Pwew.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -24,
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "To the School",
+                    "sceneId": "SchoolCourtyard"
+                },
+				{
+                    "pitch": -24,
+                    "yaw": 112,
+                    "type": "info",
+                    "text": "Spiti river"
+                },
+				{
+                    "pitch": -8,
+                    "yaw": 15,
+                    "type": "info",
+                    "text": "Tanzin"
+                },
+				{
+                    "pitch": -36,
+                    "yaw": 15,
+                    "type": "scene",
+                    "text": "Enter monastery center",
+                    "sceneId": "CentralCourtyard"
+                }
+            ]
+        },
+
+		"CentralCourtyard": {
+            "title": "Central courtyard",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/Pp9LuZP.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -24,
+                    "yaw": 360,
+                    "type": "info",
+                    "text": "Monks in masks of Mara - God of Death & Impermanence"
+                },
+				{
+                    "pitch": -22,
+                    "yaw": 328,
+                    "type": "info",
+                    "text": "Meme"
+                },
+				{
+                    "pitch": -90,
+                    "yaw": 360,
+                    "type": "info",
+                    "text": "Circle of life"
+                },
+				{
+                    "pitch": -22,
+                    "yaw": 234,
+                    "type": "scene",
+                    "text": "To the kitchen",
+                    "sceneId": "Kitchen"
+                },
+				{
+                    "pitch": 1,
+                    "yaw": 108,
+                    "type": "scene",
+                    "text": "See main prayer hall",
+                    "sceneId": "MainPrayerHallEntrance"
+                },
+				{
+                    "pitch": -24,
+                    "yaw": 134,
+                    "type": "scene",
+                    "text": "To Inner Gate",
+                    "sceneId": "InnerGate"
+                },
+				{
+                    "pitch": -4,
+                    "yaw": 162,
+                    "type": "scene",
+                    "text": "Candles Manufactury",
+                    "sceneId": "CandlesManufactory"
+                },
+				{
+                    "pitch": -32,
+                    "yaw": -80,
+                    "type": "scene",
+                    "text": "Pay visit to a monk",
+                    "sceneId": "MonksRoom"
+                },
+				{
+                    "pitch": -2,
+                    "yaw": -80,
+                    "type": "scene",
+                    "text": "Dormitory roof",
+                    "sceneId": "DormitoryRoof"
+                }
+            ]
+        },
+
+		"CandlesManufactory": {
+            "title": "Candles Manufactury",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/DPrB2NW.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -6,
+                    "yaw": 48,
+                    "type": "scene",
+                    "text": "To the central roof",
+                    "sceneId": "CentralRoof"
+                },
+				{
+                    "pitch": -14,
+                    "yaw": 196,
+                    "type": "scene",
+                    "text": "Central courtyard",
+                    "sceneId": "CentralCourtyard"
+                }
+            ]
+        },
+
+		"Kitchen": {
+            "title": "Kitchen",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/1A6cYzH.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -14,
+                    "yaw": 146,
+                    "type": "scene",
+                    "text": "Central courtyard",
+                    "sceneId": "CentralCourtyard"
+                },
+				{
+                    "pitch": -14,
+                    "yaw": 136,
+                    "type": "scene",
+                    "text": "Pantry",
+                    "sceneId": "Pantry"
+                }
+            ]
+        },
+
+		"Pantry": {
+            "title": "Pantry",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/gGpfDfS.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -14,
+                    "yaw": 136,
+                    "type": "scene",
+                    "text": "Hungry again?",
+                    "sceneId": "Kitchen"
+                },
+				{
+                    "pitch": -58,
+                    "yaw": 38,
+                    "type": "info",
+                    "text": "Bags with tsampa"
+                }
+            ]
+        },
+
+		"MonksRoom": {
+            "title": "Monk's room",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/zCZqpvZ.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 26,
+            "hotSpots": [
+				{
+                    "pitch": -8,
+                    "yaw": 106,
+                    "type": "scene",
+                    "text": "Back to central courtyard",
+                    "sceneId": "CentralCourtyard"
+                },
+				{
+                    "pitch": -5,
+                    "yaw": 160,
+                    "type": "info",
+                    "text": "Monk reading tibetan scripts."
+                },
+				{
+                    "pitch": 4,
+                    "yaw": -106,
+                    "type": "info",
+                    "text": "Picture of Dalajlama"
+                },
+				{
+                    "pitch": 4,
+                    "yaw": -68,
+                    "type": "info",
+                    "text": "Mystery room"
+                }
+            ]
+        },
+
+		"MainPrayerHallEntrance": {
+            "title": "Main prayer hall - entrance",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/NUiQlmM.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 146,
+			"pitch": -10,
+            "hotSpots": [
+				{
+                    "pitch": -56,
+                    "yaw": 140,
+                    "type": "scene",
+                    "text": "Main prayer hall - center",
+                    "sceneId": "MainPrayerHallCenter"
+                },
+				{
+                    "pitch": -41,
+                    "yaw": 64,
+                    "type": "scene",
+                    "text": "Main prayer hall - left wing",
+                    "sceneId": "MainPrayerHallLeftWing"
+                },
+				{
+                    "pitch": -21,
+                    "yaw": -38,
+                    "type": "scene",
+                    "text": "Back to main square",
+                    "sceneId": "CentralCourtyard"
+                }
+            ]
+        },
+
+		"MainPrayerHallCenter": {
+            "title": "Main prayer hall - center",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/1iA5xqo.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 126,
+            "hotSpots": [
+				{
+                    "pitch": -62,
+                    "yaw": 82,
+                    "type": "scene",
+                    "text": "Main prayer hall - left wing",
+                    "sceneId": "MainPrayerHallLeftWing"
+                },
+				{
+                    "pitch": -52,
+                    "yaw": -66,
+                    "type": "scene",
+                    "text": "Main prayer hall - entrance",
+                    "sceneId": "MainPrayerHallEntrance"
+                }
+            ]
+        },
+
+		"MainPrayerHallLeftWing": {
+            "title": "Main prayer hall - left wing",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/CMeN7YU.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 86,
+            "hotSpots": [
+				{
+                    "pitch": -58,
+                    "yaw": 204,
+                    "type": "scene",
+                    "text": "Main prayer hall - center",
+                    "sceneId": "MainPrayerHallCenter"
+                },
+				{
+                    "pitch": -48,
+                    "yaw": 284,
+                    "type": "scene",
+                    "text": "Main prayer hall - entrance",
+                    "sceneId": "MainPrayerHallEntrance"
+                }
+            ]
+        },
+
+		"DormitoryRoof": {
+            "title": "Dormitory roof",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/Dj7Me3b.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 146,
+            "hotSpots": [
+				{
+                    "pitch": -19,
+                    "yaw": 288,
+                    "type": "scene",
+                    "text": "To the center courtyard",
+                    "sceneId": "CentralCourtyard"
+                },
+				{
+                    "pitch": -15,
+                    "yaw": -172,
+                    "type": "info",
+                    "text": "Kurik"
+                },
+				{
+                    "pitch": -12,
+                    "yaw": -216,
+                    "type": "info",
+                    "text": "Rankrik"
+                }
+            ]
+        },
+
+		"CentralRoof": {
+            "title": "Central roof",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/GAFRwRv.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 106,
+            "hotSpots": [
+				{
+                    "pitch": -19,
+                    "yaw": 288,
+                    "type": "scene",
+                    "text": "To the center courtyard",
+                    "sceneId": "CentralCourtyard"
+                },
+				{
+                    "pitch": -19,
+                    "yaw": 40,
+                    "type": "scene",
+                    "text": "Enter small prayer hall",
+                    "sceneId": "SmallPrayerHall"
+                },
+				{
+                    "pitch": -14,
+                    "yaw": 138,
+                    "type": "scene",
+                    "text": "Main roof",
+                    "sceneId": "MainRoof"
+                }
+            ]
+        },
+
+		"SmallPrayerHall": {
+            "title": "Small prayer room",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/EWx7dre.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 88,
+            "hotSpots": [
+				{
+                    "pitch": -14,
+                    "yaw": 258,
+                    "type": "scene",
+                    "text": "Go outside",
+                    "sceneId": "CentralRoof"
+                },
+				{
+                    "pitch": -40,
+                    "yaw": 312,
+                    "type": "info",
+                    "text": "Donate"
+                }
+            ]
+        },
+
+		"MainRoof": {
+            "title": "Main roof",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/eh4YIJe.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 88,
+            "hotSpots": [
+				{
+                    "pitch": -24,
+                    "yaw": -2,
+                    "type": "scene",
+                    "text": "To the central roof",
+                    "sceneId": "CentralRoof"
+                },
+				{
+                    "pitch": -18,
+                    "yaw": 32,
+                    "type": "info",
+                    "text": "Kee village"
+                }
+            ]
+        },
+
+		"Classroom": {
+            "title": "Classroom",
+            "type": "equirectangular",
+            "panorama": "http://i.imgur.com/ogZrsFE.jpg",
+			"autoLoad": true,
+			"hfov": 360,
+			"yaw": 88,
+            "hotSpots": [
+				{
+                    "pitch": -24,
+                    "yaw": -46,
+                    "type": "scene",
+                    "text": "Back to school courtyard",
+                    "sceneId": "SchoolCourtyard"
+                }
+            ]
         }
+
     }
 }
