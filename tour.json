@@ -1,13 +1,13 @@
 {
     "default": {
         "author": "ProTibet",
-        "firstScene": "SchoolCourtyard",
+        "firstScene": "HillAboveKee",
         "sceneFadeDuration": 1000
     },
 
     "scenes": {
-        "RoadToKiber": {
-            "title": "Road to Kiber",
+        "RoadToKee": {
+            "title": "Cesta do kláštera Ki",
             "type": "equirectangular",
 			"panorama": "http://i.imgur.com/pqqS10T.jpg",
 			"autoLoad": true,
@@ -25,12 +25,36 @@
                     "type": "scene",
                     "text": "Path to Kee",
                     "sceneId": "OuterGate"
+                },
+				{
+                    "pitch": 6,
+                    "yaw": -14,
+                    "type": "info",
+                    "text": "Klášter Ki a historické údaje"
+                },
+				{
+                    "pitch": -20,
+                    "yaw": 40,
+                    "type": "info",
+                    "text": "Řeka Spiti"
+                },
+				{
+                    "pitch": 36,
+                    "yaw": 58,
+                    "type": "info",
+                    "text": "Počasí/podnebí Spiti"
+                },
+				{
+                    "pitch": -14,
+                    "yaw": 10,
+                    "type": "info",
+                    "text": "Vesnice Ki"
                 }
-            ]
+			]
         },
 
         "OuterGate": {
-            "title": "Kee outer gate",
+            "title": "Vnější brána kláštera Ki",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/IoCySNG.jpg",
 			"autoLoad": true,
@@ -49,13 +73,31 @@
                     "yaw": -92,
                     "type": "scene",
                     "text": "Road To Kiber",
-                    "sceneId": "RoadToKiber"
+                    "sceneId": "RoadToKee"
+                },
+				{
+                    "pitch": -22,
+                    "yaw": 106,
+                    "type": "info",
+                    "text": "Kora - Kora je rituální obcházení chrámů, klášterů, stůp nebo posvátných hor. Obchází se vždy po směru hodinových ručiček, neboť toto je směr, kterým dle starých buddhistických textů uctívá slunce horu Méru, která je středem vesmíru. Rovněž řeky, které pramení na jejím úpatí se stáčejí v tomto směru. Prováděním kory je dle buddhistů pročišťována negativní karma vykonaná tělem."
+                },
+				{
+                    "pitch": -26,
+                    "yaw": 200,
+                    "type": "info",
+                    "text": "Políčko – Pěstování, zavlažování"
+                },
+				{
+                    "pitch": 10,
+                    "yaw": -32,
+                    "type": "info",
+                    "text": "Hora po levé straně – Spiti jako pouštní oblast"
                 }
-            ]
+			]
         },
 
 		"SchoolCourtyard": {
-            "title": "School courtyard",
+            "title": "Školní dvůr",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/YAjk3vC.jpg",
 			"autoLoad": true,
@@ -89,12 +131,30 @@
                     "type": "scene",
                     "text": "Climb the hill",
                     "sceneId": "HillAboveKee"
+                },
+                {
+                    "pitch": 66,
+                    "yaw": 164,
+                    "type": "info",
+                    "text": "Buddhistická vlajka - Tato vlajka byla navržena a uvedena na Srí Lance ke konci 19. století. V roce 1952 pak byla přijata Světovým společenstvím buddhistů jako mezinárodní buddhistická vlajka. A dnes se s ní můžeme setkat v celém buddhistickém světě. Její barvy odkazují k duhové auře, kterou zazářil Buddha v okamžik své nirvány a zároveň odkazují ke kvalitám buddhistické praxe jako jsou soucit, moudrost, vyhýbání se extrémům a tak dále."
+                },
+                {
+                    "pitch": 16,
+                    "yaw": 82,
+                    "type": "info",
+                    "text": "Budova školy – info o debatách"
+                },
+                {
+                    "pitch": -44,
+                    "yaw": -102,
+                    "type": "info",
+                    "text": "Nádvoří – čhamové tance"
                 }
-            ]
+			 ]
         },
 
 		"HillAboveKee": {
-            "title": "Hill above Kee",
+            "title": "Kopec nad klášterem Ki",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/jSUVKGQ.jpg",
 			"autoLoad": true,
@@ -112,19 +172,43 @@
                     "pitch": -18,
                     "yaw": 130,
                     "type": "info",
-                    "text": "Stupa"
+                    "text": "Stupa - rituály"
                 },
 				{
                     "pitch": -17,
                     "yaw": -32,
                     "type": "info",
                     "text": "Gete Village"
+                },
+				{
+                    "pitch": 18,
+                    "yaw": 180,
+                    "type": "info",
+                    "text": "Praporky"
+                },
+				{
+                    "pitch": 5,
+                    "yaw": -24,
+                    "type": "info",
+                    "text": "Nejvyšší hory + vegetace"
+                },
+				{
+                    "pitch": -18,
+                    "yaw": 252,
+                    "type": "info",
+                    "text": "Oheň – rituály, vonné bylinky"
+                },
+				{
+                    "pitch": -10,
+                    "yaw": 66,
+                    "type": "info",
+                    "text": "Geografie údolí Spiti"
                 }
-            ]
+]
         },
 
 		"InnerGate": {
-            "title": "Gate to monastery center",
+            "title": "Brána do kláštera Ki",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/gp4Pwew.jpg",
 			"autoLoad": true,
@@ -161,7 +245,7 @@
         },
 
 		"CentralCourtyard": {
-            "title": "Central courtyard",
+            "title": "Centrální nádvoří",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/Pp9LuZP.jpg",
 			"autoLoad": true,
@@ -232,7 +316,7 @@
         },
 
 		"CandlesManufactory": {
-            "title": "Candles Manufactury",
+            "title": "Manufaktura na svíčky",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/DPrB2NW.jpg",
 			"autoLoad": true,
@@ -252,12 +336,18 @@
                     "type": "scene",
                     "text": "Central courtyard",
                     "sceneId": "CentralCourtyard"
+                },
+				{
+                    "pitch": -46,
+                    "yaw": 260,
+                    "type": "info",
+                    "text": "Máslová lampička - obětování zdroje světla je rozšířené mezi takřka všemi náboženstvími. V tibetském buddhismu se světlo obětuje ve formě máslových lamp. Ty se vyrábějí z čistého, přepuštěného másla. Lampa je symbolem moudrosti a osvícení, konce utrpení. Stejně jako její světlo zahání tmu, tak i světlo Buddhových nauk rozhání temnotu nevědomosti."
                 }
             ]
         },
 
 		"Kitchen": {
-            "title": "Kitchen",
+            "title": "Kuchyně",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/1A6cYzH.jpg",
 			"autoLoad": true,
@@ -282,7 +372,7 @@
         },
 
 		"Pantry": {
-            "title": "Pantry",
+            "title": "Sýpka",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/gGpfDfS.jpg",
 			"autoLoad": true,
@@ -306,7 +396,7 @@
         },
 
 		"MonksRoom": {
-            "title": "Monk's room",
+            "title": "Pokoj mnichů",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/zCZqpvZ.jpg",
 			"autoLoad": true,
@@ -342,7 +432,7 @@
         },
 
 		"MainPrayerHallEntrance": {
-            "title": "Main prayer hall - entrance",
+            "title": "Hlavní chrám vchod",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/NUiQlmM.jpg",
 			"autoLoad": true,
@@ -375,7 +465,7 @@
         },
 
 		"MainPrayerHallCenter": {
-            "title": "Main prayer hall - center",
+            "title": "Hlavní chrám střed",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/1iA5xqo.jpg",
 			"autoLoad": true,
@@ -400,7 +490,7 @@
         },
 
 		"MainPrayerHallLeftWing": {
-            "title": "Main prayer hall - left wing",
+            "title": "Hlavní chrám levé křídlo",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/CMeN7YU.jpg",
 			"autoLoad": true,
@@ -425,7 +515,7 @@
         },
 
 		"DormitoryRoof": {
-            "title": "Dormitory roof",
+            "title": "Střecha ubytovny",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/Dj7Me3b.jpg",
 			"autoLoad": true,
@@ -455,7 +545,7 @@
         },
 
 		"CentralRoof": {
-            "title": "Central roof",
+            "title": "Střecha",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/GAFRwRv.jpg",
 			"autoLoad": true,
@@ -487,7 +577,7 @@
         },
 
 		"SmallPrayerHall": {
-            "title": "Small prayer room",
+            "title": "Malý chrám",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/EWx7dre.jpg",
 			"autoLoad": true,
@@ -506,12 +596,18 @@
                     "yaw": 312,
                     "type": "info",
                     "text": "Donate"
+                },
+				{
+                    "pitch": -9,
+                    "yaw": 78,
+                    "type": "info",
+                    "text": "Ochránci - ochránci nauk vystupují ve svých hrůzu nahánějících podobách, aby zastrašili a zničili démony. Mnoho z ochránců je pouze hněvivým projevem jinak pokojného buddhy, či bodhisattvy. Ti se takto objevují, aby účiněji ochránili cítící bytosti."
                 }
             ]
         },
 
 		"MainRoof": {
-            "title": "Main roof",
+            "title": "Hlavní střecha",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/eh4YIJe.jpg",
 			"autoLoad": true,
@@ -535,7 +631,7 @@
         },
 
 		"Classroom": {
-            "title": "Classroom",
+            "title": "Třída",
             "type": "equirectangular",
             "panorama": "http://i.imgur.com/ogZrsFE.jpg",
 			"autoLoad": true,
