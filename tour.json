@@ -17,14 +17,7 @@
 					"pitch": -12,
 					"yaw": 170,
 					"type": "info",
-					"text": "This road leads to Kiber"
-				},
-				{
-					"pitch": -3,
-					"yaw": -26,
-					"type": "scene",
-					"text": "Path to Kee",
-					"sceneId": "OuterGate"
+					"text": "Cesta vedoucí do Kiberu"
 				},
 				{
 					"pitch": 6,
@@ -49,6 +42,13 @@
 					"yaw": 10,
 					"type": "info",
 					"text": "Vesnice Ki"
+				},
+				{
+					"pitch": -3,
+					"yaw": -26,
+					"type": "scene",
+					"text": "Cesta ke Ki",
+					"sceneId": "OuterGate"
 				}
 			]
 		},
@@ -61,20 +61,6 @@
 			"hfov": 360,
 			"yaw": 80,
 			"hotSpots": [
-				{
-					"pitch": -10,
-					"yaw": 72,
-					"type": "scene",
-					"text": "Proceed to Kee Gompa",
-					"sceneId": "SchoolCourtyard"
-				},
-				{
-					"pitch": -10,
-					"yaw": -92,
-					"type": "scene",
-					"text": "Road To Kiber",
-					"sceneId": "RoadToKee"
-				},
 				{
 					"pitch": -22,
 					"yaw": 106,
@@ -92,6 +78,20 @@
 					"yaw": -32,
 					"type": "info",
 					"text": "Hora po levé straně – Spiti jako pouštní oblast"
+				},
+				{
+					"pitch": -10,
+					"yaw": 72,
+					"type": "scene",
+					"text": "Pokračujte směrem do kláštera",
+					"sceneId": "SchoolCourtyard"
+				},
+				{
+					"pitch": -10,
+					"yaw": -92,
+					"type": "scene",
+					"text": "Cesta do Kiberu",
+					"sceneId": "RoadToKee"
 				}
 			]
 		},
@@ -104,34 +104,6 @@
 			"hfov": 360,
 			"yaw": 108,
 			"hotSpots": [
-				{
-					"pitch": -2,
-					"yaw": 52,
-					"type": "scene",
-					"text": "Visit classroom",
-					"sceneId": "Classroom"
-				},
-				{
-					"pitch": -10,
-					"yaw": -108,
-					"type": "scene",
-					"text": "To outer gate",
-					"sceneId": "OuterGate"
-				},
-				{
-					"pitch": -10,
-					"yaw": -120,
-					"type": "scene",
-					"text": "To inner gate",
-					"sceneId": "InnerGate"
-				},
-				{
-					"pitch": 25,
-					"yaw": 36,
-					"type": "scene",
-					"text": "Climb the hill",
-					"sceneId": "HillAboveKee"
-				},
 				{
 					"pitch": 66,
 					"yaw": 164,
@@ -149,6 +121,34 @@
 					"yaw": -102,
 					"type": "info",
 					"text": "Nádvoří – čhamové tance"
+				},
+				{
+					"pitch": -2,
+					"yaw": 52,
+					"type": "scene",
+					"text": "Navštivte školní třídu",
+					"sceneId": "Classroom"
+				},
+				{
+					"pitch": -10,
+					"yaw": -108,
+					"type": "scene",
+					"text": "K vnější bráně",
+					"sceneId": "OuterGate"
+				},
+				{
+					"pitch": -10,
+					"yaw": -120,
+					"type": "scene",
+					"text": "K vnitřní bráně",
+					"sceneId": "InnerGate"
+				},
+				{
+					"pitch": 25,
+					"yaw": 36,
+					"type": "scene",
+					"text": "Vylézt kopec",
+					"sceneId": "HillAboveKee"
 				}
 			 ]
 		},
@@ -162,13 +162,6 @@
 			"yaw": 108,
 			"hotSpots": [
 				{
-					"pitch": -24,
-					"yaw": 110,
-					"type": "scene",
-					"text": "Back To Kee",
-					"sceneId": "SchoolCourtyard"
-				},
-				{
 					"pitch": -18,
 					"yaw": 130,
 					"type": "info",
@@ -178,7 +171,7 @@
 					"pitch": -17,
 					"yaw": -32,
 					"type": "info",
-					"text": "Gete Village"
+					"text": "Vesnice Gete"
 				},
 				{
 					"pitch": 18,
@@ -203,6 +196,13 @@
 					"yaw": 66,
 					"type": "info",
 					"text": "Geografie údolí Spiti"
+				},
+				{
+					"pitch": -24,
+					"yaw": 110,
+					"type": "scene",
+					"text": "Zpátky ke Ki",
+					"sceneId": "SchoolCourtyard"
 				}
 			]
 		},
@@ -217,28 +217,46 @@
 			"hotSpots": [
 				{
 					"pitch": -24,
-					"yaw": 220,
-					"type": "scene",
-					"text": "To the School",
-					"sceneId": "SchoolCourtyard"
-				},
-				{
-					"pitch": -24,
 					"yaw": 112,
 					"type": "info",
-					"text": "Spiti river"
+					"text": "Řeka Spiti"
 				},
 				{
 					"pitch": -8,
 					"yaw": 15,
 					"type": "info",
-					"text": "Tanzin"
+					"text": "Tibetský mnich – zvuková stopa Tenzina?"
+				},
+				{
+					"pitch": 28,
+					"yaw": -12,
+					"type": "info",
+					"text": "8 šťastných symbolů"
+				},
+				{
+					"pitch": 6,
+					"yaw": -172,
+					"type": "info",
+					"text": "Hora – Ki uprostřed 4 vrcholů jako mandala"
+				},
+				{
+					"pitch": 20,
+					"yaw": -50,
+					"type": "info",
+					"text": "Rinpočhe – tam kde bydlí + historie"
+				},
+				{
+					"pitch": -24,
+					"yaw": 220,
+					"type": "scene",
+					"text": "Ke škole",
+					"sceneId": "Školní dvůr"
 				},
 				{
 					"pitch": -36,
 					"yaw": 15,
 					"type": "scene",
-					"text": "Enter monastery center",
+					"text": "Vstupte na hlavní nádvoří",
 					"sceneId": "CentralCourtyard"
 				}
 			]
@@ -256,7 +274,7 @@
 					"pitch": -24,
 					"yaw": 360,
 					"type": "info",
-					"text": "Monks in masks of Mara - God of Death & Impermanence"
+					"text": "Mnichové v čhamových maskách"
 				},
 				{
 					"pitch": -22,
@@ -268,48 +286,78 @@
 					"pitch": -90,
 					"yaw": 360,
 					"type": "info",
-					"text": "Circle of life"
+					"text": "Kruh života"
+				},
+				{
+					"pitch": -10,
+					"yaw": -65,
+					"type": "info",
+					"text": "Poštovní schránka"
+				},
+				{
+					"pitch": 30,
+					"yaw": -225,
+					"type": "info",
+					"text": "Tradiční architektura nad dveřma jak meditoval pán"
+				},
+				{
+					"pitch": 24,
+					"yaw": 20,
+					"type": "info",
+					"text": "Solární panel"
+				},
+				{
+					"pitch": -10,
+					"yaw": -20,
+					"type": "info",
+					"text": "Nejstarší chrám – dveře"
 				},
 				{
 					"pitch": -22,
 					"yaw": 234,
 					"type": "scene",
-					"text": "To the kitchen",
+					"text": "Do kuchyně!",
 					"sceneId": "Kitchen"
+				},
+				{
+					"pitch": -32,
+					"yaw": 50,
+					"type": "info",
+					"text": "Vysoký sloup – vždy bývá na nádvoří"
 				},
 				{
 					"pitch": 1,
 					"yaw": 108,
 					"type": "scene",
-					"text": "See main prayer hall",
+					"text": "Hlavní chrám",
 					"sceneId": "MainPrayerHallEntrance"
 				},
 				{
 					"pitch": -24,
 					"yaw": 134,
 					"type": "scene",
-					"text": "To Inner Gate",
+					"text": "K vnitřní bráně",
 					"sceneId": "InnerGate"
 				},
 				{
 					"pitch": -4,
 					"yaw": 162,
 					"type": "scene",
-					"text": "Candles Manufactury",
+					"text": "Manufaktura",
 					"sceneId": "CandlesManufactory"
 				},
 				{
 					"pitch": -32,
 					"yaw": -80,
 					"type": "scene",
-					"text": "Pay visit to a monk",
+					"text": "Navštívit mnicha",
 					"sceneId": "MonksRoom"
 				},
 				{
 					"pitch": -2,
 					"yaw": -80,
 					"type": "scene",
-					"text": "Dormitory roof",
+					"text": "Střecha ubytovny",
 					"sceneId": "DormitoryRoof"
 				}
 			]
@@ -324,24 +372,36 @@
 			"yaw": 26,
 			"hotSpots": [
 				{
+					"pitch": -46,
+					"yaw": 260,
+					"type": "info",
+					"text": "Máslová lampička - obětování zdroje světla je rozšířené mezi takřka všemi náboženstvími. V tibetském buddhismu se světlo obětuje ve formě máslových lamp. Ty se vyrábějí z čistého, přepuštěného másla. Lampa je symbolem moudrosti a osvícení, konce utrpení. Stejně jako její světlo zahání tmu, tak i světlo Buddhových nauk rozhání temnotu nevědomosti."
+				},
+				{
+					"pitch": -26,
+					"yaw": 210,
+					"type": "info",
+					"text": "Olej a máslo"
+				},
+				{
+					"pitch": 10,
+					"yaw": 40,
+					"type": "info",
+					"text": "Tibetský ozdobný závěs – odkaz na eshop"
+				},
+				{
 					"pitch": -6,
 					"yaw": 48,
 					"type": "scene",
-					"text": "To the central roof",
+					"text": "Na hlavní střechu",
 					"sceneId": "CentralRoof"
 				},
 				{
 					"pitch": -14,
 					"yaw": 196,
 					"type": "scene",
-					"text": "Central courtyard",
+					"text": "Centrální nádvoří",
 					"sceneId": "CentralCourtyard"
-				},
-				{
-					"pitch": -46,
-					"yaw": 260,
-					"type": "info",
-					"text": "Máslová lampička - obětování zdroje světla je rozšířené mezi takřka všemi náboženstvími. V tibetském buddhismu se světlo obětuje ve formě máslových lamp. Ty se vyrábějí z čistého, přepuštěného másla. Lampa je symbolem moudrosti a osvícení, konce utrpení. Stejně jako její světlo zahání tmu, tak i světlo Buddhových nauk rozhání temnotu nevědomosti."
 				}
 			]
 		},
@@ -355,17 +415,47 @@
 			"yaw": 26,
 			"hotSpots": [
 				{
+					"pitch": 90,
+					"yaw": 40,
+					"type": "info",
+					"text": "Spálený strop"
+				},
+				{
+					"pitch": 90,
+					"yaw": 40,
+					"type": "info",
+					"text": "Spálený strop"
+				},
+				{
+					"pitch": -40,
+					"yaw": 180,
+					"type": "info",
+					"text": "Dřevo – jak se topí (palivo)"
+				},
+				{
+					"pitch": -20,
+					"yaw": 100,
+					"type": "info",
+					"text": "Strava – dhal, čočka, rýže, čaj, momo, timo, thukpa, thentuk"
+				},
+				{
+					"pitch": -14,
+					"yaw": 200,
+					"type": "info",
+					"text": "V čem vaří"
+				},
+				{
 					"pitch": -14,
 					"yaw": 146,
 					"type": "scene",
-					"text": "Central courtyard",
+					"text": "Hlavní nádvoří",
 					"sceneId": "CentralCourtyard"
 				},
 				{
 					"pitch": -14,
 					"yaw": 136,
 					"type": "scene",
-					"text": "Pantry",
+					"text": "Sýpka",
 					"sceneId": "Pantry"
 				}
 			]
@@ -380,17 +470,23 @@
 			"yaw": 26,
 			"hotSpots": [
 				{
-					"pitch": -14,
-					"yaw": 136,
-					"type": "scene",
-					"text": "Hungry again?",
-					"sceneId": "Kitchen"
-				},
-				{
 					"pitch": -58,
 					"yaw": 38,
 					"type": "info",
-					"text": "Bags with tsampa"
+					"text": "Pytle s tsampou"
+				},
+				{
+					"pitch": 2,
+					"yaw": 136,
+					"type": "info",
+					"text": "Nízké dveře"
+				},
+				{
+					"pitch": -14,
+					"yaw": 136,
+					"type": "scene",
+					"text": "Máte zase hlad? ;)",
+					"sceneId": "Kitchen"
 				}
 			]
 		},
@@ -404,35 +500,71 @@
 			"yaw": 26,
 			"hotSpots": [
 				{
-					"pitch": -8,
-					"yaw": 106,
-					"type": "scene",
-					"text": "Back to central courtyard",
-					"sceneId": "CentralCourtyard"
-				},
-				{
 					"pitch": -5,
 					"yaw": 160,
 					"type": "info",
-					"text": "Monk reading tibetan scripts."
+					"text": "Mnich čtoucí tibetské skripty."
 				},
 				{
 					"pitch": 4,
 					"yaw": -106,
 					"type": "info",
-					"text": "Picture of Dalajlama"
+					"text": "Obrázek Dalajlamy"
 				},
 				{
 					"pitch": 4,
 					"yaw": -68,
 					"type": "info",
-					"text": "Mystery room"
+					"text": "Tajemná místnost"
+				},
+				{
+					"pitch": 0,
+					"yaw": 28,
+					"type": "info",
+					"text": "Pohostinnost (nádobí)"
+				},
+				{
+					"pitch": -10,
+					"yaw": 210,
+					"type": "info",
+					"text": "Oblečení – barvy"
+				},
+				{
+					"pitch": -60,
+					"yaw": 30,
+					"type": "info",
+					"text": "Topení"
+				},
+				{
+					"pitch": 20,
+					"yaw": 20,
+					"type": "info",
+					"text": "odkaz na adopci?"
+				},
+				{
+					"pitch": -5,
+					"yaw": 180,
+					"type": "info",
+					"text": "Tuhé zimy – okno"
+				},
+				{
+					"pitch": -22,
+					"yaw": 2,
+					"type": "info",
+					"text": "Propantubanový vařič – většina domácností"
+				},
+				{
+					"pitch": -8,
+					"yaw": 106,
+					"type": "scene",
+					"text": "Zpět na nádvoří",
+					"sceneId": "CentralCourtyard"
 				}
 			]
 		},
 
 		"MainPrayerHallEntrance": {
-			"title": "Hlavní chrám vchod",
+			"title": "Hlavní chrám - vchod",
 			"type": "equirectangular",
 			"panorama": "http://i.imgur.com/NUiQlmM.jpg",
 			"autoLoad": true,
@@ -441,31 +573,61 @@
 			"pitch": -10,
 			"hotSpots": [
 				{
+					"pitch": -22,
+					"yaw": 12,
+					"type": "info",
+					"text": "Pudža"
+				},
+				{
+					"pitch": -22,
+					"yaw": 62,
+					"type": "info",
+					"text": "Zvuková stopa – modlitba"
+				},
+				{
+					"pitch": 10,
+					"yaw": -132,
+					"type": "info",
+					"text": "Thangka – třeba tady"
+				},
+				{
+					"pitch": -16,
+					"yaw": -98,
+					"type": "info",
+					"text": "Bubínek"
+				},
+				{
+					"pitch": -28,
+					"yaw": -160,
+					"type": "info",
+					"text": "Donation box - přispějte"
+				},
+				{
 					"pitch": -56,
 					"yaw": 140,
 					"type": "scene",
-					"text": "Main prayer hall - center",
+					"text": "Hlavní chrám - střed",
 					"sceneId": "MainPrayerHallCenter"
 				},
 				{
 					"pitch": -41,
 					"yaw": 64,
 					"type": "scene",
-					"text": "Main prayer hall - left wing",
+					"text": "Hlavní chrám - levé křídlo",
 					"sceneId": "MainPrayerHallLeftWing"
 				},
 				{
 					"pitch": -21,
 					"yaw": -38,
 					"type": "scene",
-					"text": "Back to main square",
+					"text": "Zpátky na nádvoří",
 					"sceneId": "CentralCourtyard"
 				}
 			]
 		},
 
 		"MainPrayerHallCenter": {
-			"title": "Hlavní chrám střed",
+			"title": "Hlavní chrám - střed",
 			"type": "equirectangular",
 			"panorama": "http://i.imgur.com/1iA5xqo.jpg",
 			"autoLoad": true,
@@ -473,24 +635,48 @@
 			"yaw": 126,
 			"hotSpots": [
 				{
+					"pitch": -28,
+					"yaw": -60,
+					"type": "info",
+					"text": "Damaru – bubínek"
+				},
+				{
+					"pitch": -30,
+					"yaw": 0,
+					"type": "info",
+					"text": "Zvonek a dordže"
+				},
+				{
+					"pitch": -20,
+					"yaw": 6,
+					"type": "info",
+					"text": "Buddhistická váza"
+				},
+				{
+					"pitch": -18,
+					"yaw": 36,
+					"type": "info",
+					"text": "Pančenlama"
+				},
+				{
 					"pitch": -62,
 					"yaw": 82,
 					"type": "scene",
-					"text": "Main prayer hall - left wing",
+					"text": "Hlavní chrám - levé křídlo",
 					"sceneId": "MainPrayerHallLeftWing"
 				},
 				{
 					"pitch": -52,
 					"yaw": -66,
 					"type": "scene",
-					"text": "Main prayer hall - entrance",
+					"text": "Hlavní chrám - vstup",
 					"sceneId": "MainPrayerHallEntrance"
 				}
 			]
 		},
 
 		"MainPrayerHallLeftWing": {
-			"title": "Hlavní chrám levé křídlo",
+			"title": "Hlavní chrám - levé křídlo",
 			"type": "equirectangular",
 			"panorama": "http://i.imgur.com/CMeN7YU.jpg",
 			"autoLoad": true,
@@ -498,17 +684,41 @@
 			"yaw": 86,
 			"hotSpots": [
 				{
+					"pitch": -32,
+					"yaw": 80,
+					"type": "info",
+					"text": "Torma – obětina"
+				},
+				{
+					"pitch": -14,
+					"yaw": 102,
+					"type": "info",
+					"text": "Mandala"
+				},
+				{
+					"pitch": -18,
+					"yaw": 142,
+					"type": "info",
+					"text": "Obětní misky"
+				},
+				{
+					"pitch": 32,
+					"yaw": 80,
+					"type": "info",
+					"text": "Svitky a texty (tibetské svaté knihy)"
+				},
+				{
 					"pitch": -58,
 					"yaw": 204,
 					"type": "scene",
-					"text": "Main prayer hall - center",
+					"text": "Hlavní chrám - střed",
 					"sceneId": "MainPrayerHallCenter"
 				},
 				{
 					"pitch": -48,
 					"yaw": 284,
 					"type": "scene",
-					"text": "Main prayer hall - entrance",
+					"text": "Hlavní chrám - vstup",
 					"sceneId": "MainPrayerHallEntrance"
 				}
 			]
@@ -526,8 +736,15 @@
 					"pitch": -19,
 					"yaw": 288,
 					"type": "scene",
-					"text": "To the center courtyard",
+					"text": "Na hlavní nádvoří",
 					"sceneId": "CentralCourtyard"
+				},
+				{
+					"pitch": 20,
+					"yaw": 20,
+					"type": "scene",
+					"text": "Jít na kopec",
+					"sceneId": "HillAboveKee"
 				},
 				{
 					"pitch": -15,
@@ -540,6 +757,18 @@
 					"yaw": -216,
 					"type": "info",
 					"text": "Rankrik"
+				},
+				{
+					"pitch": -12,
+					"yaw": -216,
+					"type": "info",
+					"text": "Rankrik"
+				},
+				{
+					"pitch": -21,
+					"yaw": 120,
+					"type": "info",
+					"text": "Altánek se sochama Buddhy"
 				}
 			]
 		},
@@ -556,21 +785,21 @@
 					"pitch": -19,
 					"yaw": 288,
 					"type": "scene",
-					"text": "To the center courtyard",
+					"text": "Na hlavní nádvoří",
 					"sceneId": "CentralCourtyard"
 				},
 				{
 					"pitch": -19,
 					"yaw": 40,
 					"type": "scene",
-					"text": "Enter small prayer hall",
+					"text": "Vstup do malého chrámu",
 					"sceneId": "SmallPrayerHall"
 				},
 				{
 					"pitch": -14,
 					"yaw": 138,
 					"type": "scene",
-					"text": "Main roof",
+					"text": "Hlavní střecha",
 					"sceneId": "MainRoof"
 				}
 			]
@@ -588,14 +817,20 @@
 					"pitch": -14,
 					"yaw": 258,
 					"type": "scene",
-					"text": "Go outside",
+					"text": "Jít ven",
 					"sceneId": "CentralRoof"
 				},
 				{
 					"pitch": -40,
 					"yaw": 312,
 					"type": "info",
-					"text": "Donate"
+					"text": "Darovat"
+				},
+				{
+					"pitch": -30,
+					"yaw": 332,
+					"type": "info",
+					"text": "Khatak"
 				},
 				{
 					"pitch": -9,
@@ -618,14 +853,38 @@
 					"pitch": -24,
 					"yaw": -2,
 					"type": "scene",
-					"text": "To the central roof",
+					"text": "Na centrální střechu",
 					"sceneId": "CentralRoof"
 				},
 				{
 					"pitch": -18,
 					"yaw": 32,
 					"type": "info",
-					"text": "Kee village"
+					"text": "Vesnice Ki"
+				},
+				{
+					"pitch": -8,
+					"yaw": -10,
+					"type": "info",
+					"text": "Chrlič"
+				},
+				{
+					"pitch": -8,
+					"yaw": -10,
+					"type": "info",
+					"text": "Chrlič"
+				},
+				{
+					"pitch": -10,
+					"yaw": 68,
+					"type": "info",
+					"text": "Vesnice Kurik"
+				},
+				{
+					"pitch": -8,
+					"yaw": 24,
+					"type": "info",
+					"text": "Vesnice Rangrik"
 				}
 			]
 		},
@@ -642,8 +901,39 @@
 					"pitch": -24,
 					"yaw": -46,
 					"type": "scene",
-					"text": "Back to school courtyard",
+					"text": "Zpátky na školní dvůr",
 					"sceneId": "SchoolCourtyard"
+				},
+				{
+					"pitch": -24,
+					"yaw": -46,
+					"type": "scene",
+					"text": "Zpátky na školní dvůr",
+					"sceneId": "SchoolCourtyard"
+				},
+				{
+					"pitch": -8,
+					"yaw": 15,
+					"type": "info",
+					"text": "Studium, jak to chodí, co se učí, kolik tříd, spitština jako jazyk"
+				},
+				{
+					"pitch": 1,
+					"yaw": 56,
+					"type": "info",
+					"text": "Okno – sluníčko, hodně slunečných dnů v roce"
+				},
+				{
+					"pitch": 42,
+					"yaw": 30,
+					"type": "info",
+					"text": "Kamna - ve stropě díra"
+				},
+				{
+					"pitch": -14,
+					"yaw": 15,
+					"type": "info",
+					"text": "Učitelství – mniši jako učitelé"
 				}
 			]
 		}
