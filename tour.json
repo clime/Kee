@@ -656,7 +656,7 @@
 					"pitch": -18,
 					"yaw": 36,
 					"type": "info",
-					"text": "Pančenlama"
+					"text": "Lochen Rinpoche"
 				},
 				{
 					"pitch": -62,
@@ -687,15 +687,15 @@
 					"pitch": -32,
 					"yaw": 80,
 					"type": "info",
-					"text": "Torma – obětina"
+					"text": "Torma – Obětina jídla zhotovená z těsta, obvykle z mouky a vody a másla. Jsou zdobeny plastickými vzory a soškami. Jejich vzhled, tvar, barva i náročnost zdobení závisí na účelu, pro který jsou vyráběny a rovněž na konkrétní linii tibetského buddhismu."
 				},
 				{
-					"pitch": -14,
+					"pitch": -16,
 					"yaw": 102,
 					"type": "info",
-					"text": "Mandala"
+					"text": "Mandala - Schematické zobrazení paláce určitého buddhistického božstva nahlíženým seshora. Její tvar, rozměry, barvy jakož i všechny jednotlivé symboly mají přesně daný řád, a není povoleno se od něj v nepatrnosti odchýlit. Mandala je obkroužená ohněm moudrosti, který brání vstupu nepovolaným. Dále se zde nachází brány střežené ochránci, za nimi pak parky a zahrady a samotný palác. Božstva vždy sídlí v jeho středu, obklopeny dalšími božstvy, buddhy a bodhisattvy."
 				},
-				{
+					{
 					"pitch": -18,
 					"yaw": 142,
 					"type": "info",
@@ -705,7 +705,7 @@
 					"pitch": 32,
 					"yaw": 80,
 					"type": "info",
-					"text": "Svitky a texty (tibetské svaté knihy)"
+					"text": "Buddhistické texty - Tibetské knihy se tisknou na podlouhlé listy papíru, nesvazují se, ale jsou dány mezi pevné desky s označením titulu a ovázány látkovým čtvercem. Formát tibetských knih, tedy podlouhlé nesvázané listy, vychází z indických knih psaných na palmové listy, které se do Tibetu dostaly během začátku šíření buddhismu."
 				},
 				{
 					"pitch": -58,
