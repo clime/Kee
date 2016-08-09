@@ -120,7 +120,7 @@
 					"pitch": -44,
 					"yaw": -102,
 					"type": "info",
-					"text": "Nádvoří – čhamové tance"
+					"text": "Nádvoří pro čham - Rituální tanec, má podobně jako mnoho \"typických buddhistických tradic\" původ v předbuddhistickém tibetském náboženství bon. Téměř v každém klášteře se provádí alespoň jednou do roka a tato silná náboženská představení jsou vždy důvodem setkání a trhů pro obyvatele z širokého okolí. Ëxistuje mnoho druhů a variací čhamových tanců. V klášteře Ki se jednou za dva roky v létě provádí Gju Tor- Devět obětin, který je zasvěcen božstvu Jámantakovi a jeho doprovodu."
 				},
 				{
 					"pitch": -2,
@@ -250,7 +250,7 @@
 					"yaw": 220,
 					"type": "scene",
 					"text": "Ke škole",
-					"sceneId": "Školní dvůr"
+					"sceneId": "SchoolCourtyard"
 				},
 				{
 					"pitch": -36,
@@ -588,7 +588,7 @@
 					"pitch": 10,
 					"yaw": -132,
 					"type": "info",
-					"text": "Thangka – třeba tady"
+					"text": "Thangka - Thangky jsou tradiční tibetské malby božstev rámované v brokátu. Tato forma je nejjednodušší na transport, prostě se svine a zaváže. Jednoduché přenášení obrazů bylo a je stále podstatné pro nomádské obyvatelstvo a cestující lámy."
 				},
 				{
 					"pitch": -16,
@@ -638,7 +638,7 @@
 					"pitch": -28,
 					"yaw": -60,
 					"type": "info",
-					"text": "Damaru – bubínek"
+					"text": "Buben"
 				},
 				{
 					"pitch": -30,
@@ -699,7 +699,7 @@
 					"pitch": -18,
 					"yaw": 142,
 					"type": "info",
-					"text": "Obětní misky"
+					"text": "Obětní misky - Obětních misek se předkládá sedm, protože sedm je příznivé číslo pro obětiny. Každé ráno se naplní čerstvou vodou a večer opět vylijí a obrátí dnem vzhůru, neboť není zdvořilé předkládat před jakékoli hosty prázdné talíře nebo misky, tím víc, jsou-li těmito \"hosty\" Buddha, bodhisattvové a božstva."
 				},
 				{
 					"pitch": 32,
