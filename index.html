@@ -13,15 +13,71 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 	<style  type="text/css">
-		body {
-			background: #701c19;
-			text-align: center;
-		}
+    body {
+      background: #701c19;
+      text-align: center;
+    }
+
+    a {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: white;
+    }
+
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: hotpink;
+
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+    }
 	</style>
 </head>
 <body>
 	<!--<embed src="tib.mp3" loop="true" width=0 height=0 autostart="true" hidden="true" />-->
 	<iframe width="0" height="0"></iframe>
-	<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum/src/standalone/pannellum.htm?config=../../../tour.json"></iframe>
+
+  <script>
+  $(document).ready(function() {
+    function getURLParameter(name) {
+      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+    }
+    $('#scene-list').before('<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum/src/standalone/pannellum.htm?config=../../../tour.json&firstScene='+getURLParameter('firstScene')+'"></iframe>');
+  });
+  </script>
+
+  <div id="scene-list">
+    <a href="?firstScene=RoadToKee">Cesta do kláštera Ki</a><br/>
+    <a href="?firstScene=OuterGate">Vnější brána kláštera Ki</a><br/>
+    <a href="?firstScene=SchoolCourtyard">Školní dvůr</a><br/>
+    <a href="?firstScene=HillAboveKee">Kopec nad klášterem Ki</a><br/>
+    <a href="?firstScene=InnerGate">Brána do kláštera Ki</a><br/>
+    <a href="?firstScene=CentralCourtyard">Centrální nádvoří</a><br/>
+    <a href="?firstScene=CandlesManufactory">Manufaktura na svíčky</a><br/>
+    <a href="?firstScene=Kitchen">Kuchyně</a><br/>
+    <a href="?firstScene=Pantry">Sýpka</a><br/>
+    <a href="?firstScene=MonksRoom">Pokoj mnichů</a><br/>
+    <a href="?firstScene=MainPrayerHallEntrance">Hlavní chrám - vchod</a><br/>
+    <a href="?firstScene=MainPrayerHallCenter">Hlavní chrám - střed</a><br/>
+    <a href="?firstScene=MainPrayerHallLeftWing">Hlavní chrám - levé křídlo</a><br/>
+    <a href="?firstScene=DormitoryRoof">Střecha ubytovny</a><br/>
+    <a href="?firstScene=CentralRoof">Střecha</a><br/>
+    <a href="?firstScene=SmallPrayerHall">Malý chrám</a><br/>
+    <a href="?firstScene=MainRoof">Hlavní střecha</a><br/>
+    <a href="?firstScene=Classroom">Třída</a><br/>
+  </div>
+
 </body>
 </html>
