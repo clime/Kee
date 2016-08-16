@@ -54,7 +54,12 @@
     function getURLParameter(name) {
       return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
     }
-    $('#scene-list').before('<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum/src/standalone/pannellum.htm?config=../../../tour.json&firstScene='+getURLParameter('firstScene')+'"></iframe>');
+	firstScene = getURLParameter('firstScene')
+	firstSceneParam = ''
+	if (firstScene) {
+	  firstSceneParam = '&firstScene=' + firstScene;
+	}
+    $('#scene-list').before('<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum/src/standalone/pannellum.htm?config=../../../tour.json'+firstSceneParam+'"></iframe>');
   });
   </script>
 
