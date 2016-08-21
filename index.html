@@ -10,7 +10,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="favicon.ico" />
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
 
 	<style  type="text/css">
     body {
@@ -59,8 +59,9 @@
 	if (firstScene) {
 	  firstSceneParam = '&firstScene=' + firstScene;
 	}
-    $('#scene-list').before('<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum/src/standalone/pannellum.htm?config=../../../tour.json'+firstSceneParam+'"></iframe>');
+    $('#scene-list').before('<iframe width="960" height="640" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum.htm?config=tour.json'+firstSceneParam+'"></iframe>');
   });
+  localStorage['visited_scenes'] = '';
   </script>
 
   <div id="scene-list">
