@@ -228,6 +228,13 @@
 					"text": "Tibetský mnich – zvuková stopa Tenzina?"
 				},
 				{
+					"pitch": -9,
+					"yaw": 28,
+					"type": "play",
+					"text": "Přehrát Tanzinovo uvítání.",
+					"audio": "tanzin.mp3"
+				},
+				{
 					"pitch": 28,
 					"yaw": -12,
 					"type": "info",
@@ -581,8 +588,9 @@
 				{
 					"pitch": -22,
 					"yaw": 62,
-					"type": "info",
-					"text": "Zvuková stopa – modlitba"
+					"type": "play",
+					"text": "Přehrát náhrávku z Pudžy.",
+					"audio": "prayer.mp3"
 				},
 				{
 					"pitch": 10,

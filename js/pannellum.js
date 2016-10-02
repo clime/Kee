@@ -60,6 +60,7 @@ var config,
     animating = false,
     autoRotateStart,
     update = false, // Should we update when still to render dynamic content
+    audio = null,
     hotspotsCreated = false;
 
 var defaultConfig = {
@@ -1421,6 +1422,15 @@ function createHotSpots() {
                 div.style.cursor = 'pointer';
                 span.style.cursor = 'pointer';
                 a.appendChild(div);
+            } else if (hs.audio) {
+                a = document.createElement('a');
+                a.href = '#'
+                a.target = '_blank';
+                a.onclick = function() {audio = new Audio(hs.audio); audio.play(); return false;};
+                renderContainer.appendChild(a);
+                div.style.cursor = 'pointer';
+                span.style.cursor = 'pointer';
+                a.appendChild(div);
             } else {
                 if (hs.sceneId) {
                     div.onclick = function() {
@@ -1759,6 +1769,11 @@ function load() {
 function loadScene(sceneId, targetPitch, targetYaw, targetHfov) {
     loaded = false;
     oldRenderer = renderer;
+
+    if (audio) {
+        audio.pause();
+        audio = null;
+    }
 
     if (!localStorage['visited_scenes']) {
         localStorage['visited_scenes'] = sceneId;

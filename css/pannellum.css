@@ -315,6 +315,9 @@
 .pnlm-hotspot.pnlm-scene.visited {
     background-position: 0 -182px;
 }
+.pnlm-hotspot.pnlm-play {
+    background-position: 0 -212px;
+}
 
 div.pnlm-tooltip span {
     visibility: hidden;
