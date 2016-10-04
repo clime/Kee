@@ -68,6 +68,13 @@
 					"text": "Kora - Kora je rituální obcházení chrámů, klášterů, stůp nebo posvátných hor. Obchází se vždy po směru hodinových ručiček, neboť toto je směr, kterým dle starých buddhistických textů uctívá slunce horu Méru, která je středem vesmíru. Rovněž řeky, které pramení na jejím úpatí se stáčejí v tomto směru. Prováděním kory je dle buddhistů pročišťována negativní karma vykonaná tělem."
 				},
 				{
+					"pitch": -22,
+					"yaw": 146,
+                    "type": "play",
+					"text": "Hra na Tibetské misky",
+					"audio": "tibetan-bowls.mp3"
+				},
+				{
 					"pitch": -26,
 					"yaw": 200,
 					"type": "info",
