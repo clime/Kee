@@ -1426,7 +1426,22 @@ function createHotSpots() {
                 a = document.createElement('a');
                 a.href = '#'
                 a.target = '_blank';
-                a.onclick = function() {audio = new Audio(hs.audio); audio.play(); return false;};
+                a.onclick = function() {
+                    if (!audio) {
+                        audio = new Audio(hs.audio);
+                        audio.onended = function() {
+                            div.className = div.className.replace(/pnlm-pause/,'pnlm-play');
+                        }
+                    }
+                    if (audio.paused) {
+                        audio.play();
+                        div.className = div.className.replace(/pnlm-play/,'pnlm-pause');
+                    } else {
+                        audio.pause();
+                        div.className = div.className.replace(/pnlm-pause/,'pnlm-play');
+                    }
+                    return false;
+                };
                 renderContainer.appendChild(a);
                 div.style.cursor = 'pointer';
                 span.style.cursor = 'pointer';
