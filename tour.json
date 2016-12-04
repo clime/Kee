@@ -17,31 +17,31 @@
 					"pitch": -12,
 					"yaw": 170,
 					"type": "info",
-					"text": "Cesta vedoucí do Kiberu"
+					"text": "Cesta vedoucí do Kiberu - Oblast Spiti a Ladaku spadá pod indickou vládu a díky tomu byly v těchto oblastech zachovány kulturní tradice, které v zemi sněhu byly a jsou stále utlačovány pod vlivem Kulturní revoluce a čínské normalizace."
 				},
 				{
 					"pitch": 6,
 					"yaw": -14,
 					"type": "info",
-					"text": "Klášter Ki a historické údaje"
+					"text": "Klášter Ki - Věří se, že kopec, na kterém je klášter postaven, představuje palác tantrického božstva Čakrasamvary. Ki gompa neboli „klášter uprostřed mandaly“ je také znám jako Norbu Gephel „Klenot, který rozšiřuje ctnosti“."
 				},
 				{
 					"pitch": -20,
 					"yaw": 40,
 					"type": "info",
-					"text": "Řeka Spiti"
+					"text": "Řeka Spiti - údolí Spiti je rozděleno do dvou oblastí s rozličnou morfologií. Na jihu je údolí zúžené a více skalnaté, na severu je rozšířenější s přítomností více vegetace pro pastvu."
 				},
 				{
 					"pitch": 36,
 					"yaw": 58,
 					"type": "info",
-					"text": "Počasí/podnebí Spiti"
+					"text": "Klimatické podmínky - Spiti se nachází ve výšce 3500 m n. m.  Klimatické podmínky jsou typické pro vysokohorské pouštní oblasti – suché s minimálním množstvím dešťových srážek. Období letních měsíců, kdy není zem pokrytá sněhem, se dá odhadnout na 5 měsíců od května do října. V této letní sezóně se v údolí při jasném počasí pohybují teploty kolem 15 – 25 stupni  C, ostré slunce a studený vítr. Při oblačnosti jsou podmínky méně hostinné."
 				},
 				{
 					"pitch": -14,
 					"yaw": 10,
 					"type": "info",
-					"text": "Vesnice Ki"
+					"text": "Vesnice Ki - Ki se nachází v údolí Spiti v severozápadním indickém Himálaji. Pustá a syrová krajina překypující krásnými výhledy hrála klíčovou roli při formování kulturních zvyklostí Tibeťanů a místních obyvatel."
 				},
 				{
 					"pitch": -3,
@@ -78,13 +78,19 @@
 					"pitch": -26,
 					"yaw": 200,
 					"type": "info",
-					"text": "Políčko – Pěstování, zavlažování"
+					"text": "Políčko, pěstování, zavlažování - Většina místních obyvatel této oblasti se zabývá drobným farmařením, které je v nadmořské výšce 3500 m n. m. ztíženo zkráceným vegetačním obdobím na 4 měsíce. Místní farmáři pěstují brambory, hrášek, listovou zeleninu, obilí. Nehostinná půda musí byt dobře zavlažována a vyživována, aby byla úrodonosná."
 				},
 				{
 					"pitch": 10,
 					"yaw": -32,
 					"type": "info",
 					"text": "Hora po levé straně – Spiti jako pouštní oblast"
+				},
+				{
+					"pitch": 22,
+					"yaw": 28,
+					"type": "info",
+					"text": "Tři vrcholky nad klášterem - Tři skalní výběžky nad klášterem představují obydlí tří božstev ochraňující klášter: Chamsing, Lhamo, Neser"
 				},
 				{
 					"pitch": -10,
@@ -118,10 +124,16 @@
 					"text": "Buddhistická vlajka - Tato vlajka byla navržena a uvedena na Srí Lance ke konci 19. století. V roce 1952 pak byla přijata Světovým společenstvím buddhistů jako mezinárodní buddhistická vlajka. A dnes se s ní můžeme setkat v celém buddhistickém světě. Její barvy odkazují k duhové auře, kterou zazářil Buddha v okamžik své nirvány a zároveň odkazují ke kvalitám buddhistické praxe jako jsou soucit, moudrost, vyhýbání se extrémům a tak dále."
 				},
 				{
+					"pitch": 1,
+					"yaw": 222,
+					"type": "info",
+					"text": "Debaty - Debaty tvoří součást tradičního klášterního vzdělání – mají za účel ověřit logické uvažování a argumentační schopnosti. Ostatní mniši kladou otázky tázané osobě, která studovala buddhistické texty a ta argumentuje na otázky."
+				},
+				{
 					"pitch": 16,
 					"yaw": 82,
 					"type": "info",
-					"text": "Budova školy – info o debatách"
+					"text": "Budova školy – klášterní škola poskytuje základní, střední a vyšší vzdělání. Škola má celkem 105 studentů (45 nižší ročníky a 60 – buddhistická filosofie, vyšší ročníky).  Usilují o zavádění moderních předmětů (IT, AJ). Rozpočet školy na rok je 1 441 750RS (převažující položky: strava, platby učitelů, učebnice), příspěvek MOST ProTibet tvoří 75 % rozpočtu."
 				},
 				{
 					"pitch": -44,
@@ -184,25 +196,19 @@
 					"pitch": 18,
 					"yaw": 180,
 					"type": "info",
-					"text": "Praporky"
-				},
-				{
-					"pitch": 5,
-					"yaw": -24,
-					"type": "info",
-					"text": "Nejvyšší hory + vegetace"
+					"text": "Praporky - Modlitební praporky a jejich tradice vznikla již v dávném Tibetu, a pochází z tradice Bön, tehdy se však na praporky netiskly modlitby. Pět barev představuje pět elementů/živlů, nebo také pět ctností a moudrostí. Dle vyobrazených božstev je uvedena i adekvátní modlitba na daném praporku. Tradice věří, že vítr se opírá do modliteb a přání uvedených na praporku a přináší je všem bytostem. Vyvěšují se na vysoce položená a posvátná místa."
 				},
 				{
 					"pitch": -18,
 					"yaw": 252,
 					"type": "info",
-					"text": "Oheň – rituály, vonné bylinky"
+					"text": "Oheň, rituály, vonné bylinky - Na tomto vrcholku probíhají rituály, při kterých se pálí vonné bylinky, mouka a další substance, jejichž cílem je nakrmit bytosti tzv. pojídače pachů. Jedná se o ochranné a očistné rituály."
 				},
 				{
 					"pitch": -10,
 					"yaw": 66,
 					"type": "info",
-					"text": "Geografie údolí Spiti"
+					"text": "Cesta do Šimly přes Kinaur"
 				},
 				{
 					"pitch": -24,
@@ -217,47 +223,71 @@
 		"InnerGate": {
 			"title": "Brána do kláštera Ki",
 			"type": "equirectangular",
-			"panorama": "http://i.imgur.com/gp4Pwew.jpg",
+			"panorama": "http://i.imgur.com/OfHsBBY.jpg",
 			"autoLoad": true,
 			"hfov": 360,
 			"yaw": 26,
 			"hotSpots": [
 				{
-					"pitch": -24,
-					"yaw": 112,
-					"type": "info",
-					"text": "Řeka Spiti"
-				},
-				{
-					"pitch": -8,
-					"yaw": 15,
-					"type": "info",
-					"text": "Tibetský mnich – zvuková stopa Tenzina?"
-				},
-				{
 					"pitch": -9,
 					"yaw": 28,
 					"type": "play",
-					"text": "Přehrát Tanzinovo uvítání.",
+					"text": "Spustit uvítání mnicha",
 					"audio": "tanzin.mp3"
 				},
 				{
 					"pitch": 28,
 					"yaw": -12,
 					"type": "info",
-					"text": "8 šťastných symbolů"
+					"text": "Drahocenný slunečník - je symbolem ochrany před žárem znečištění - třemi hlavními nečistotami mysli, tj. ulpíváním, hněvem a nevědomostí."
+				},
+				{
+					"pitch": 28,
+					"yaw": 58,
+					"type": "info",
+					"text": "Zlaté ryby - jsou obě stejně postavené, většinou mají hlavy dole. V duchovní oblasti se uvádí, že ryby symbolizují vysvobození z oceánu samsáry – koloběhu znovuzrození."
+				},
+				{
+					"pitch": 18,
+					"yaw": 58,
+					"type": "info",
+					"text": "Lotosový květ - představuje vnitřní čistotu. Kořenící v bahně, přesto neposkvrněný, takové je poselství květu symbolizujícího moudrost."
+				},
+				{
+					"pitch": 5,
+					"yaw": 58,
+					"type": "info",
+					"text": "Nekonečný uzel - je grafický symbol vzájemně propletený bez začátku a konce, symbolizuje v duchovní rovině nekonečnou moudrost a soucit, jako dvě klíčové kvality vedoucí k probuzení."
+				},
+				{
+					"pitch": -10,
+					"yaw": 58,
+					"type": "info",
+					"text": "Kolo dharmy (Dharmačakra) symbolizuje výklad Buddhova učení."
+				},
+				{
+					"pitch": 18,
+					"yaw": -12,
+					"type": "info",
+					"text": "Číše velkého pokladu (váza) - na duchovní úrovni je číše spojována s mimořádnými schopnostmi a v tibetském buddhismu se používá pro různé tantrické obřady. Je symbolem vyplnění přání."
 				},
 				{
 					"pitch": 6,
-					"yaw": -172,
+					"yaw": -12,
 					"type": "info",
-					"text": "Hora – Ki uprostřed 4 vrcholů jako mandala"
+					"text": "Pravotočivá ulita - je předmět dokonalých tvarů a dokonalého zvuku. Jako symbol starého rituálního předmětu představuje dharmu, která se šíři do všech směrů formou zvuku."
+				},
+				{
+					"pitch": -10,
+					"yaw": -12,
+					"type": "info",
+					"text": "Praporec vítězství - symbolizuje vítězství moudrosti nad překážkami nevědomosti."
 				},
 				{
 					"pitch": 20,
 					"yaw": -50,
 					"type": "info",
-					"text": "Rinpočhe – tam kde bydlí + historie"
+					"text": "Lochen Tulku Rinpoche – je 19. inkarnací velkého překladatele Rincehn Sangpa (958 – 1055), který je od počátku držitelem trůnu v klášteře Ki. Patří mezi jedny z největších duchovních učitelů svého regionu a jeho historická vtělení jsou známá v tibetské buddhistické tradici školy Gelugpa široko daleko."
 				},
 				{
 					"pitch": -24,
@@ -279,7 +309,7 @@
 		"CentralCourtyard": {
 			"title": "Centrální nádvoří",
 			"type": "equirectangular",
-			"panorama": "http://i.imgur.com/Pp9LuZP.jpg",
+			"panorama": "http://i.imgur.com/zVag0NA.jpg",
 			"autoLoad": true,
 			"hfov": 360,
 			"yaw": 26,
@@ -288,7 +318,7 @@
 					"pitch": -24,
 					"yaw": 360,
 					"type": "info",
-					"text": "Mnichové v čhamových maskách"
+					"text": "Mniši v čhamových maskách - nejsem si jistá jestli jsou opravdu čamové – Adámek k tomu nic nepsal?"
 				},
 				{
 					"pitch": -22,
@@ -309,10 +339,10 @@
 					"text": "Poštovní schránka"
 				},
 				{
-					"pitch": 30,
-					"yaw": -225,
+					"pitch": 8,
+					"yaw": -216,
 					"type": "info",
-					"text": "Tradiční architektura nad dveřma jak meditoval pán"
+					"text": "Deska – Klášter byl v roce 2000 poctěn návštěvou 14. Dalajlamy při příležitosti konání Kalačakry. Sjelo se zde z okolí na více než 30 000 lidí. V té době se tvrdilo, že je JSD nejblíže svému domovu Tibetu – 16 kilometrů od tibetských hranic."
 				},
 				{
 					"pitch": 24,
@@ -324,7 +354,7 @@
 					"pitch": -10,
 					"yaw": -20,
 					"type": "info",
-					"text": "Nejstarší chrám – dveře"
+					"text": "Nejstarší chrám – Místnost s velkým modlitebním mlýnkem (mani khorlo) místnost, kterou střežil nejstarší mnich v klášteře Meme"
 				},
 				{
 					"pitch": -22,
@@ -337,7 +367,7 @@
 					"pitch": -32,
 					"yaw": 50,
 					"type": "info",
-					"text": "Vysoký sloup – vždy bývá na nádvoří"
+					"text": "Vysoký sloup – Tradičně umístěn na nádvořích klášterů s vyvěšenými praporci."
 				},
 				{
 					"pitch": 1,
@@ -380,7 +410,7 @@
 		"CandlesManufactory": {
 			"title": "Manufaktura na svíčky",
 			"type": "equirectangular",
-			"panorama": "http://i.imgur.com/DPrB2NW.jpg",
+			"panorama": "http://i.imgur.com/rZxWLKs.jpg",
 			"autoLoad": true,
 			"hfov": 360,
 			"yaw": 26,
@@ -401,7 +431,8 @@
 					"pitch": 10,
 					"yaw": 40,
 					"type": "info",
-					"text": "Tibetský ozdobný závěs – odkaz na eshop"
+					"text": "Tibetský ozdobný závěs – odkaz na eshop",
+					"URL": "http://www.shop.protibet.cz/kategorie-produktu/buddhisticke/tibetske-dvere/"
 				},
 				{
 					"pitch": -6,
@@ -429,34 +460,53 @@
 			"yaw": 26,
 			"hotSpots": [
 				{
-					"pitch": 90,
+					"pitch": 130,
 					"yaw": 40,
 					"type": "info",
-					"text": "Spálený strop"
+					"text": "Spálený strop - Plameny z pece někdy sahají velmi vysoko a na stropě je to za ta dlouhá léta dobře vidno."
 				},
 				{
-					"pitch": 90,
-					"yaw": 40,
+					"pitch": -33,
+					"yaw": 214,
 					"type": "info",
-					"text": "Spálený strop"
+					"text": "Odpadové hospodářství – V Asii a v Indii speciálně je odpadové hospodářství pojato zcela jinak, než jak jsme zvyklí. Odpadky jsou odhozeny na zem a následně bývají spáleny buď na příslušném místě mimo obydlí, nebo v kamnech."
+				},
+				{
+					"pitch": -8,
+					"yaw": 254,
+					"type": "info",
+					"text": "Hrnec na momo - Kaskádový hrnec s otvory ve dně, kterými prochází horká pára."
+				},
+				{
+					"pitch": -8,
+					"yaw": 234,
+					"type": "info",
+					"text": "Mantry - Již vybledlá mantra nahoře je mantrou čištící od zlých duchů. Ta dobře viditelná je prostým přáním do Nového roku."
 				},
 				{
 					"pitch": -40,
 					"yaw": 180,
 					"type": "info",
-					"text": "Dřevo – jak se topí (palivo)"
+					"text": "Palivo – Dřevo je vzácná a drahá komodita ve vyprahlé horské poušti. Dováží se z daleka a každým rokem je dražší."
 				},
 				{
-					"pitch": -20,
-					"yaw": 100,
+					"pitch": -34,
+					"yaw": 180,
 					"type": "info",
-					"text": "Strava – dhal, čočka, rýže, čaj, momo, timo, thukpa, thentuk"
+					"text": "Přispějte na otop. Kliknutím otevřete e-shop.",
+					"URL": "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-otop-na-zimu-2/"
+				},
+				{
+					"pitch": -24,
+					"yaw": 110,
+					"type": "info",
+					"text": "Mnišská strava - Mniši se stravují prostě a levně. Vesměs mají ve stravě kombinaci rýže, čočky, mouky, zeleniny, vajíčka. Příležitostně snědí trochu masa, které jim v krušné zimě dodá živiny."
 				},
 				{
 					"pitch": -14,
 					"yaw": 200,
 					"type": "info",
-					"text": "V čem vaří"
+					"text": "Kuchyňské hrnce na peci – Tradiční potravou je rýže s čočkou (dhal), plněné taštičky (momo) napařované v páře, sukovité knedlíčky (tingmo), sladký a slaný čaj, a vydatná polévka thukpa."
 				},
 				{
 					"pitch": -14,
@@ -487,19 +537,19 @@
 					"pitch": -58,
 					"yaw": 38,
 					"type": "info",
-					"text": "Pytle s tsampou"
+					"text": "Pytle s tsampou - Ke kuchyni tradičně patří i místnost pro skladování mouky, v tomto případě tsampy – pražený mletý ječmen. Tento tradiční pokrm zasytí a říká se, že pražený mletý ječmen je i tělu prospěšný. Tato místnost je jednou z těch, do kterých se žádný turista jen tak nepodívá."
 				},
 				{
 					"pitch": 2,
 					"yaw": 136,
 					"type": "info",
-					"text": "Nízké dveře"
+					"text": "Nízké dveře – Jsou přítomny skoro ve všech starých klášterech a obydlích. Vypráví se, že když někdo zemře, duše zemřelého se nemůže v zádech sklonit a dveřmi projít."
 				},
 				{
 					"pitch": -14,
 					"yaw": 136,
 					"type": "scene",
-					"text": "Máte zase hlad? ;)",
+					"text": "Zpět do kuchyně",
 					"sceneId": "Kitchen"
 				}
 			]
@@ -517,55 +567,50 @@
 					"pitch": -5,
 					"yaw": 160,
 					"type": "info",
-					"text": "Mnich čtoucí tibetské skripty."
+					"text": "Mnich – Mniši se intenzivně věnují studiu textů a modlitbám. Pijí hodně horkou vodu, která je zahřeje a sytí se tsampou, praženou ječnou moukou. Jsou velmi skromní, štědří a laskaví."
 				},
 				{
 					"pitch": 4,
 					"yaw": -106,
 					"type": "info",
-					"text": "Obrázek Dalajlamy"
+					"text": "Obrázek Jeho Svatosti dalajlamy – Klášter patří do linie Gelugpa – jejíž hlavním držitelem je 14. Dalajlama"
 				},
 				{
-					"pitch": 4,
-					"yaw": -68,
+					"pitch": -48,
+					"yaw": -88,
 					"type": "info",
-					"text": "Tajemná místnost"
+					"text": "Obětní misky - Každý den je na oltář Třem klenotům věnováno sedm obětních misek s vodou."
 				},
 				{
 					"pitch": 0,
 					"yaw": 28,
 					"type": "info",
-					"text": "Pohostinnost (nádobí)"
+					"text": "Pohostinost – Přestože místní lidé nevlastní mnoho, rádi se s Vámi podělí i o to málo, které mají. Pohostinost je jim vlastní. Jejich místnosti většinou zdobí pouze měděné nádobí v kuchyni a oltář. "
 				},
 				{
-					"pitch": -10,
-					"yaw": 210,
+					"pitch": 0,
+					"yaw": 50,
 					"type": "info",
-					"text": "Oblečení – barvy"
+					"text": "Komín – Většina místních domácností a místností má ve stropě díru, aby skrze ni mohli protáhnout komín."
 				},
 				{
 					"pitch": -60,
-					"yaw": 30,
+					"yaw": 38,
 					"type": "info",
-					"text": "Topení"
+					"text": "Otop - Zimy jsou v horách tuhé, izolace téměř žádná. Mniši i místní jsou velmi odolní, ale jejich oblečení je skromné. Přispějte na otop místních obyvatel. Kliknutím otevřete e-shop v novém okně",
+					"URL" : "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-otop-na-zimu-2/"
 				},
 				{
-					"pitch": 20,
-					"yaw": 20,
+					"pitch": 0,
+					"yaw": -96,
 					"type": "info",
-					"text": "odkaz na adopci?"
-				},
-				{
-					"pitch": -5,
-					"yaw": 180,
-					"type": "info",
-					"text": "Tuhé zimy – okno"
+					"text": "Vypínače - Elektřina v oblasti jde, ale pravidelně každý den vypadává. Proto mají mniši v pokojích solární svítilny a kamínka na tuhá paliva a plyn na vaření."
 				},
 				{
 					"pitch": -22,
 					"yaw": 2,
 					"type": "info",
-					"text": "Propantubanový vařič – většina domácností"
+					"text": "Plynová bomba – Osvědčený zdroj pro vaření, který je využíván většinou domácností v oblasti Asie."
 				},
 				{
 					"pitch": -8,
@@ -590,7 +635,7 @@
 					"pitch": -22,
 					"yaw": 12,
 					"type": "info",
-					"text": "Pudža"
+					"text": "Púdža - modlitby mnichů. Průběh ranní Púny: chrám se ráno otevře a sejdou se zde starší i mladší mniši. Začnou recitovat určité sutry (buddhistické texty) a rytmický zpěv probíhá minimálně hodinu, spíše dvě. Při těchto zpěvech se používají i rituální předměty jako je zvonek (dilbu) a dorje, bubny, trumpetky, činely. V průběhu ranní pujy se nalévá slaný čaj a snídá pražený ječmen, který je mnichům servírován v průběhu mladšími."
 				},
 				{
 					"pitch": -22,
@@ -600,16 +645,10 @@
 					"audio": "prayer.mp3"
 				},
 				{
-					"pitch": 10,
-					"yaw": -132,
-					"type": "info",
-					"text": "Thangka - Thangky jsou tradiční tibetské malby božstev rámované v brokátu. Tato forma je nejjednodušší na transport, prostě se svine a zaváže. Jednoduché přenášení obrazů bylo a je stále podstatné pro nomádské obyvatelstvo a cestující lámy."
-				},
-				{
 					"pitch": -16,
 					"yaw": -98,
 					"type": "info",
-					"text": "Bubínek"
+					"text": "Buben"
 				},
 				{
 					"pitch": -28,
@@ -653,25 +692,49 @@
 					"pitch": -28,
 					"yaw": -60,
 					"type": "info",
-					"text": "Buben"
+					"text": "Buben - Hudební nástroj využívaný při Púnách."
 				},
 				{
 					"pitch": -30,
-					"yaw": 0,
+					"yaw": -3,
 					"type": "info",
-					"text": "Zvonek a dordže"
+					"text": "Dilbu a Dorje - Dorje je rituální předmět, který se používá dohromady se zvonkem neboli Dilbu. Symbolizuje nezničitelnou povahu moudrosti a podstaty mysli."
 				},
 				{
 					"pitch": -20,
 					"yaw": 6,
 					"type": "info",
-					"text": "Buddhistická váza"
+					"text": "Váza – Rituální předmět využívaný při tantrických rotelech pro požehnání."
 				},
 				{
 					"pitch": -18,
 					"yaw": 36,
 					"type": "info",
-					"text": "Lochen Rinpoche"
+					"text": "Trůn - Čestné místo pro Rinpocheho – na obrázku mladičký Lochen Tulku Rinpoche."
+				},
+				{
+					"pitch": -18,
+					"yaw": 216,
+					"type": "info",
+					"text": "Trůn - Čestné místo pro představeného kláštera – hlavního lamu, který vede modlitby."
+				},
+				{
+					"pitch": -8,
+					"yaw": 126,
+					"type": "info",
+					"text": "Čelní trůn - Čestné místo pro držitele linie, v tomto případě buddhistická linie Gelugpa, jímž je JS dalajlama."
+				},
+				{
+					"pitch": -18,
+					"yaw": 100,
+					"type": "info",
+					"text": "Kathag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tradiční tibetskou tradici."
+				},
+				{
+					"pitch": 10,
+					"yaw": -142,
+					"type": "info",
+					"text": "Thangka - Thangky jsou tradiční tibetské malby božstev rámované v brokátu. Tato forma je nejjednodušší na transport, prostě se svine a zaváže. Jednoduché přenášení obrazů bylo a je stále podstatné pro nomádské obyvatelstvo a cestující lámy."
 				},
 				{
 					"pitch": -62,
@@ -699,7 +762,7 @@
 			"yaw": 86,
 			"hotSpots": [
 				{
-					"pitch": -32,
+					"pitch": -22,
 					"yaw": 80,
 					"type": "info",
 					"text": "Torma – Obětina jídla zhotovená z těsta, obvykle z mouky a vody a másla. Jsou zdobeny plastickými vzory a soškami. Jejich vzhled, tvar, barva i náročnost zdobení závisí na účelu, pro který jsou vyráběny a rovněž na konkrétní linii tibetského buddhismu."
@@ -721,6 +784,12 @@
 					"yaw": 80,
 					"type": "info",
 					"text": "Buddhistické texty - Tibetské knihy se tisknou na podlouhlé listy papíru, nesvazují se, ale jsou dány mezi pevné desky s označením titulu a ovázány látkovým čtvercem. Formát tibetských knih, tedy podlouhlé nesvázané listy, vychází z indických knih psaných na palmové listy, které se do Tibetu dostaly během začátku šíření buddhismu."
+				},
+				{
+					"pitch": 2,
+					"yaw": 166,
+					"type": "info",
+					"text": "Květiny – Květiny patří mezi vzácné obětiny, protože v regionu Himálaje rostou minimálně."
 				},
 				{
 					"pitch": -58,
@@ -765,25 +834,19 @@
 					"pitch": -15,
 					"yaw": -172,
 					"type": "info",
-					"text": "Kurik"
+					"text": "Vesnice Kurik"
 				},
 				{
 					"pitch": -12,
 					"yaw": -216,
 					"type": "info",
-					"text": "Rankrik"
-				},
-				{
-					"pitch": -12,
-					"yaw": -216,
-					"type": "info",
-					"text": "Rankrik"
+					"text": "Vesnice Rangrik"
 				},
 				{
 					"pitch": -21,
 					"yaw": 120,
 					"type": "info",
-					"text": "Altánek se sochama Buddhy"
+					"text": "Altánek se sochou Buddhy a jeho učnů"
 				}
 			]
 		},
@@ -821,7 +884,7 @@
 		},
 
 		"SmallPrayerHall": {
-			"title": "Malý chrám",
+			"title": "Malý chrám - chrám ochránců",
 			"type": "equirectangular",
 			"panorama": "http://i.imgur.com/EWx7dre.jpg",
 			"autoLoad": true,
@@ -842,10 +905,22 @@
 					"text": "Darovat"
 				},
 				{
-					"pitch": -30,
-					"yaw": 332,
+					"pitch": -89,
+					"yaw": 85,
 					"type": "info",
-					"text": "Khatak"
+					"text": "Šest ornamentů Náropy – Posvátné kostěné ornamenty velkého učence Náropy."
+				},
+				{
+					"pitch": 10,
+					"yaw": 170,
+					"type": "info",
+					"text": "Lochen Tulku Rinpoche – současná podoba Rinpocheho."
+				},
+				{
+					"pitch": -30,
+					"yaw": 230,
+					"type": "info",
+					"text": "Zimchung – bývalá rezidence Rinpocheho."
 				},
 				{
 					"pitch": -9,
@@ -859,7 +934,7 @@
 		"MainRoof": {
 			"title": "Hlavní střecha",
 			"type": "equirectangular",
-			"panorama": "http://i.imgur.com/eh4YIJe.jpg",
+			"panorama": "http://i.imgur.com/ehaNS8i.jpg",
 			"autoLoad": true,
 			"hfov": 360,
 			"yaw": 88,
@@ -876,6 +951,12 @@
 					"yaw": 32,
 					"type": "info",
 					"text": "Vesnice Ki"
+				},
+				{
+					"pitch": -34,
+					"yaw": 202,
+					"type": "info",
+					"text": "Tajný tunel - V období příprav kláštera na vzácnou událost Kalačakry v roce 2000 byl obejvený tunel, který spojuje horní část kláštera se základnou kopce. Tento tajný tunel sloužil zejména k dopravě vody do kláštera."
 				},
 				{
 					"pitch": -8,
@@ -920,35 +1001,46 @@
 					"sceneId": "SchoolCourtyard"
 				},
 				{
-					"pitch": -24,
-					"yaw": -46,
-					"type": "scene",
-					"text": "Zpátky na školní dvůr",
-					"sceneId": "SchoolCourtyard"
+					"pitch": -28,
+					"yaw": 120,
+					"type": "info",
+					"text": "Průměrný počet žáků ve třídě je 16. Ročně přijímají ke studiu 6-7 studentů."
 				},
 				{
-					"pitch": -8,
-					"yaw": 15,
+					"pitch": -18,
+					"yaw": 160,
 					"type": "info",
-					"text": "Studium, jak to chodí, co se učí, kolik tříd, spitština jako jazyk"
+					"text": "Probíhá výuka tradiční (buddhistická filosofie, bodhi, modlitby) i moderní (hindi, matematika, angličtina, v omezené míře IT)."
+				},
+				{
+					"pitch": -18,
+					"yaw": 220,
+					"type": "info",
+					"text": "Po ukončení 1. – 2. Stupně žáci mohou studovat buddhistickou filosofii."
+				},
+				{
+					"pitch": -18,
+					"yaw": 280,
+					"type": "info",
+					"text": "Menší výskyt učebních pomůcek."
+				},
+				{
+					"pitch": -18,
+					"yaw": 360,
+					"type": "info",
+					"text": "Potenciál vylepšení – výuka angličtiny"
+				},
+				{
+					"pitch": -38,
+					"yaw": 420,
+					"type": "info",
+					"text": "Učitelé pocházejí z kláštera Ki a zatím neprobíhá další vzdělávání učitelů."
 				},
 				{
 					"pitch": 1,
 					"yaw": 56,
 					"type": "info",
 					"text": "Okno – sluníčko, hodně slunečných dnů v roce"
-				},
-				{
-					"pitch": 42,
-					"yaw": 30,
-					"type": "info",
-					"text": "Kamna - ve stropě díra"
-				},
-				{
-					"pitch": -14,
-					"yaw": 15,
-					"type": "info",
-					"text": "Učitelství – mniši jako učitelé"
 				}
 			]
 		}
