@@ -29,13 +29,13 @@
 					"pitch": -20,
 					"yaw": 40,
 					"type": "info",
-					"text": "Řeka Spiti - údolí Spiti je rozděleno do dvou oblastí s rozličnou morfologií. Na jihu je údolí zúžené a více skalnaté, na severu je rozšířenější s přítomností více vegetace pro pastvu."
+					"text": "Řeka Spiti - Údolí Spiti je rozděleno do dvou oblastí s rozličnou morfologií. Na jihu je údolí zúžené a více skalnaté, na severu je rozšířenější a nachází se zde více vegetace vhodné pro pastvu."
 				},
 				{
 					"pitch": 36,
 					"yaw": 58,
 					"type": "info",
-					"text": "Klimatické podmínky - Spiti se nachází ve výšce 3500 m n. m.  Klimatické podmínky jsou typické pro vysokohorské pouštní oblasti – suché s minimálním množstvím dešťových srážek. Období letních měsíců, kdy není zem pokrytá sněhem, se dá odhadnout na 5 měsíců od května do října. V této letní sezóně se v údolí při jasném počasí pohybují teploty kolem 15 – 25 stupni  C, ostré slunce a studený vítr. Při oblačnosti jsou podmínky méně hostinné."
+					"text": "Klimatické podmínky - Spiti se nachází ve výšce 3500 m n. m.  Klimatické podmínky jsou typické pro vysokohorské pouštní oblasti – suché s minimálním množstvím dešťových srážek. Období letních měsíců, kdy není zem pokrytá sněhem, se dá odhadnout na 5 měsíců od května do října. V této letní sezóně se v údolí při jasném počasí pohybují teploty kolem 15 – 25 stupni C, ostré slunce a studený vítr. Při oblačnosti jsou podmínky méně hostinné."
 				},
 				{
 					"pitch": -14,
@@ -76,9 +76,9 @@
 				},
 				{
 					"pitch": -26,
-					"yaw": 200,
-					"type": "info",
-					"text": "Políčko, pěstování, zavlažování - Většina místních obyvatel této oblasti se zabývá drobným farmařením, které je v nadmořské výšce 3500 m n. m. ztíženo zkráceným vegetačním obdobím na 4 měsíce. Místní farmáři pěstují brambory, hrášek, listovou zeleninu, obilí. Nehostinná půda musí byt dobře zavlažována a vyživována, aby byla úrodonosná."
+                    "yaw": 200,
+                    "type": "info",
+					"text": "Políčko, pěstování, zavlažování - Většina místních obyvatel této oblasti se zabývá drobným farmařením, které je v nadmořské výšce 3500 m n. m. ztíženo zkráceným vegetačním obdobím na 4 měsíce. Místní farmáři pěstují brambory, hrášek, listovou zeleninu, obilí. Nehostinná půda musí byt dobře zavlažována a vyživována, aby byla úrodná."
 				},
 				{
 					"pitch": 10,
@@ -342,7 +342,7 @@
 					"pitch": 8,
 					"yaw": -216,
 					"type": "info",
-					"text": "Deska – Klášter byl v roce 2000 poctěn návštěvou 14. Dalajlamy při příležitosti konání Kalačakry. Sjelo se zde z okolí na více než 30 000 lidí. V té době se tvrdilo, že je JSD nejblíže svému domovu Tibetu – 16 kilometrů od tibetských hranic."
+					"text": "Deska – Klášter byl v roce 2000 poctěn návštěvou 14. dalajlamy při příležitosti konání Kalačakry. Sjelo se zde z okolí na více než 30 000 lidí. V té době se tvrdilo, že je JSD nejblíže svému domovu Tibetu – 16 kilometrů od tibetských hranic."
 				},
 				{
 					"pitch": 24,
@@ -573,7 +573,7 @@
 					"pitch": 4,
 					"yaw": -106,
 					"type": "info",
-					"text": "Obrázek Jeho Svatosti dalajlamy – Klášter patří do linie Gelugpa – jejíž hlavním držitelem je 14. Dalajlama"
+					"text": "Obrázek Jeho Svatosti dalajlamy – Klášter patří do linie Gelugpa – jejíž hlavním držitelem je 14. dalajlama"
 				},
 				{
 					"pitch": -48,
@@ -604,7 +604,7 @@
 					"pitch": 0,
 					"yaw": -96,
 					"type": "info",
-					"text": "Vypínače - Elektřina v oblasti jde, ale pravidelně každý den vypadává. Proto mají mniši v pokojích solární svítilny a kamínka na tuhá paliva a plyn na vaření."
+					"text": "Vypínače - Elektřina v oblasti jde, ale pravidelně každý den vypadává. Proto mají mniši v pokojích solární svítilny, kamínka na tuhá paliva a také plyn na vaření."
 				},
 				{
 					"pitch": -22,
@@ -648,7 +648,7 @@
 					"pitch": -16,
 					"yaw": -98,
 					"type": "info",
-					"text": "Buben"
+					"text": "Buben - neboli Damaru"
 				},
 				{
 					"pitch": -28,
@@ -1007,26 +1007,33 @@
 					"text": "Průměrný počet žáků ve třídě je 16. Ročně přijímají ke studiu 6-7 studentů."
 				},
 				{
-					"pitch": -18,
-					"yaw": 160,
+					"pitch": -48,
+					"yaw": 180,
 					"type": "info",
 					"text": "Probíhá výuka tradiční (buddhistická filosofie, bodhi, modlitby) i moderní (hindi, matematika, angličtina, v omezené míře IT)."
 				},
 				{
-					"pitch": -18,
-					"yaw": 220,
+					"pitch": -38,
+					"yaw": 279,
+					"type": "info",
+					"text": "Koupit učebnici - Kliknutím otevřete e-shop",
+                    "URL": "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-ucebnice-tibetstiny-2/"
+				},
+				{
+					"pitch": -10,
+					"yaw": 372,
 					"type": "info",
 					"text": "Po ukončení 1. – 2. Stupně žáci mohou studovat buddhistickou filosofii."
 				},
 				{
-					"pitch": -18,
-					"yaw": 280,
+					"pitch": 11,
+					"yaw": 181,
 					"type": "info",
 					"text": "Menší výskyt učebních pomůcek."
 				},
 				{
-					"pitch": -18,
-					"yaw": 360,
+					"pitch": 5,
+					"yaw": 280,
 					"type": "info",
 					"text": "Potenciál vylepšení – výuka angličtiny"
 				},
