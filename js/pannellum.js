@@ -1397,6 +1397,7 @@ function createHotSpots() {
                         if (data !== undefined) {
                             overlay.src = data;
                         }
+                        renderContainer.removeChild(renderContainer.lastChild); //renderer also puts canvas in the container
                         overlay.style.position = 'absolute';
                         renderContainer.insertBefore(overlay, renderContainer.firstChild);
                         overlay.style.transition = 'opacity ' + (config.sceneFadeDuration / 1000) + 's';
