@@ -654,7 +654,8 @@
 					"pitch": -28,
 					"yaw": -160,
 					"type": "info",
-					"text": "Donation box - přispějte"
+					"text": "Donation box - přispějte",
+                    "overlay": "http://31.31.78.41:8014/img/boxshine-on.png"
 				},
 				{
 					"pitch": -56,

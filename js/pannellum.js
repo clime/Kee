@@ -242,6 +242,7 @@ function init() {
             c.basePath = config.basePath;
         }
         panoImage = c;
+
     } else {
         if (config.dynamic === true) {
             panoImage = config.panorama;
@@ -1383,6 +1384,29 @@ function createHotSpots() {
         config.hotSpots.forEach(function(hs) {
             var div = document.createElement('div');
             div.className = 'pnlm-hotspot pnlm-tooltip pnlm-sprite pnlm-' + escapeHTML(hs.type);
+
+            if (hs.overlay) {
+                div.onmouseover = function() {
+                    var rawOverlay = new Image();
+                    rawOverlay.onload = function() {
+                        var overlay = new Image();
+                        var myrenderer = new libpannellum.renderer(renderContainer, rawOverlay, config.type, config.dynamic);
+                        myrenderer.init(config.haov * Math.PI / 180, config.vaov * Math.PI / 180, config.vOffset * Math.PI / 180, renderInitCallback);
+                        var data = myrenderer.render(config.pitch * Math.PI / 180, config.yaw * Math.PI / 180, config.hfov * Math.PI / 180, {returnImage: true});
+                        if (data !== undefined) {
+                            overlay.src = data;
+                        }
+                        //overlay.style.opacity = 0;
+                        renderContainer.insertBefore(overlay, renderContainer.firstChild);
+                        //overlay.style.transition = 'opacity ' + (config.sceneFadeDuration / 1000) + '1s';
+                        //overlay.style.opacity = 1;
+                    }
+                    rawOverlay.src = hs.overlay;
+                }
+                div.onmouseout = function() {
+                    renderContainer.removeChild(renderContainer.firstChild);
+                }
+            }
 
             var span = document.createElement('span');
             if (hs.text)
