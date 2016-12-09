@@ -430,7 +430,7 @@
 				{
 					"pitch": 10,
 					"yaw": 40,
-					"type": "info",
+					"type": "shop",
 					"text": "Tibetský ozdobný závěs – odkaz na eshop",
 					"URL": "http://www.shop.protibet.cz/kategorie-produktu/buddhisticke/tibetske-dvere/"
 				},
@@ -492,7 +492,7 @@
 				{
 					"pitch": -34,
 					"yaw": 180,
-					"type": "info",
+					"type": "shop",
 					"text": "Přispějte na otop. Kliknutím otevřete e-shop.",
 					"URL": "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-otop-na-zimu-2/"
 				},
@@ -596,7 +596,7 @@
 				{
 					"pitch": -60,
 					"yaw": 38,
-					"type": "info",
+					"type": "shop",
 					"text": "Otop - Zimy jsou v horách tuhé, izolace téměř žádná. Mniši i místní jsou velmi odolní, ale jejich oblečení je skromné. Přispějte na otop místních obyvatel. Kliknutím otevřete e-shop v novém okně",
 					"URL" : "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-otop-na-zimu-2/"
 				},
@@ -653,10 +653,10 @@
 				{
 					"pitch": -28,
 					"yaw": -160,
-					"type": "info",
+					"type": "donate",
 					"text": "Donation box - přispějte",
                     "overlay": "http://31.31.78.41:8014/img/boxshine.png",
-					"URL": "http://www.protibet.cz/zapojte-se/prispejte/"
+                    "URL": "http://www.protibet.cz/zapojte-se/prispejte/"
 				},
 				{
 					"pitch": -56,
@@ -1017,7 +1017,7 @@
 				{
 					"pitch": -38,
 					"yaw": 279,
-					"type": "info",
+					"type": "shop",
 					"text": "Koupit učebnici - Kliknutím otevřete e-shop",
                     "URL": "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-ucebnice-tibetstiny-2/"
 				},

@@ -1496,7 +1496,9 @@ function createHotSpots() {
 
             div.appendChild(span);
             span.style.width = span.scrollWidth - 20 + 'px';
-            span.style.marginLeft = -(span.scrollWidth - 26) / 2 + 'px';
+            //span.style.marginLeft = -(span.scrollWidth - 26) / 2 + 'px';
+            //clime: bigger icons
+            span.style.marginLeft = -(span.scrollWidth - 36) / 2 + 'px';
             span.style.marginTop = -span.scrollHeight - 12 + 'px';
             hs.div = div;
         });
