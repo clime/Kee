@@ -655,7 +655,8 @@
 					"yaw": -160,
 					"type": "info",
 					"text": "Donation box - přispějte",
-                    "overlay": "http://31.31.78.41:8014/img/boxshine.png"
+                    "overlay": "http://31.31.78.41:8014/img/boxshine.png",
+					"URL": "http://www.protibet.cz/zapojte-se/prispejte/"
 				},
 				{
 					"pitch": -56,
