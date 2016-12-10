@@ -90,7 +90,7 @@
 					"pitch": 22,
 					"yaw": 28,
 					"type": "info",
-					"text": "Tři vrcholky nad klášterem - Tři skalní výběžky nad klášterem představují obydlí tří božstev ochraňující klášter: Chamsing, Lhamo, Neser"
+					"text": "Tři vrcholky nad klášterem - Tři skalní výběžky nad klášterem představují obydlí tří božstev ochraňující klášter: Čamtsing, Lhamo, Nezer"
 				},
 				{
 					"pitch": -10,
@@ -139,7 +139,7 @@
 					"pitch": -44,
 					"yaw": -102,
 					"type": "info",
-					"text": "Nádvoří pro čham - Rituální tanec, má podobně jako mnoho \"typických buddhistických tradic\" původ v předbuddhistickém tibetském náboženství bon. Téměř v každém klášteře se provádí alespoň jednou do roka a tato silná náboženská představení jsou vždy důvodem setkání a trhů pro obyvatele z širokého okolí. Ëxistuje mnoho druhů a variací čhamových tanců. V klášteře Ki se jednou za dva roky v létě provádí Gju Tor- Devět obětin, který je zasvěcen božstvu Jámantakovi a jeho doprovodu."
+					"text": "Nádvoří pro čham - Rituální tanec, má podobně jako mnoho \"typických buddhistických tradic\" původ v předbuddhistickém tibetském náboženství bon. Téměř v každém klášteře se provádí alespoň jednou do roka a tato silná náboženská představení jsou vždy důvodem setkání a trhů pro obyvatele z širokého okolí. Ëxistuje mnoho druhů a variací čhamových tanců. V klášteře Ki se jednou za dva roky v létě provádí Gju Tor - Devět obětin, který je zasvěcen božstvu Jámantakovi a jeho doprovodu."
 				},
 				{
 					"pitch": -2,
@@ -635,20 +635,20 @@
 					"pitch": -22,
 					"yaw": 12,
 					"type": "info",
-					"text": "Púdža - modlitby mnichů. Průběh ranní Púny: chrám se ráno otevře a sejdou se zde starší i mladší mniši. Začnou recitovat určité sutry (buddhistické texty) a rytmický zpěv probíhá minimálně hodinu, spíše dvě. Při těchto zpěvech se používají i rituální předměty jako je zvonek (dilbu) a dorje, bubny, trumpetky, činely. V průběhu ranní pujy se nalévá slaný čaj a snídá pražený ječmen, který je mnichům servírován v průběhu mladšími."
+					"text": "Púdža - modlitby mnichů. Průběh ranní Púdžy: chrám se ráno otevře a sejdou se zde starší i mladší mniši. Začnou recitovat určité sutry (buddhistické texty) a rytmický zpěv probíhá minimálně hodinu, spíše dvě. Při těchto zpěvech se používají i rituální předměty jako je zvonek (dilbu) a dorje, bubny, trumpetky, činely. V průběhu ranní Púdžy se nalévá slaný čaj a snídá pražený ječmen, který je mnichům servírován v průběhu mladšími."
 				},
 				{
 					"pitch": -22,
 					"yaw": 62,
 					"type": "play",
-					"text": "Přehrát náhrávku z Pudžy.",
+					"text": "Přehrát náhrávku z Púdžy.",
 					"audio": "prayer.mp3"
 				},
 				{
 					"pitch": -16,
 					"yaw": -98,
 					"type": "info",
-					"text": "Buben - neboli Damaru"
+					"text": "Buben - Jeden z nástrojů využívaný pro ceremonie."
 				},
 				{
 					"pitch": -28,
@@ -694,7 +694,7 @@
 					"pitch": -28,
 					"yaw": -60,
 					"type": "info",
-					"text": "Buben - Hudební nástroj využívaný při Púnách."
+					"text": "Buben - Hudební nástroj využívaný při Púdžách."
 				},
 				{
 					"pitch": -30,
@@ -730,7 +730,7 @@
 					"pitch": -18,
 					"yaw": 100,
 					"type": "info",
-					"text": "Kathag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tradiční tibetskou tradici."
+					"text": "Kathag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tibetskou tradici."
 				},
 				{
 					"pitch": 10,
