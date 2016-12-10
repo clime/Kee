@@ -1386,11 +1386,10 @@ function createHotSpots() {
             div.className = 'pnlm-hotspot pnlm-tooltip pnlm-sprite pnlm-' + escapeHTML(hs.type);
 
             if (hs.overlay) {
-                var overlay = null;
                 div.onmouseover = function() {
                     var rawOverlay = new Image();
                     rawOverlay.onload = function() {
-                        overlay = new Image();
+                        var overlay = new Image();
                         var myrenderer = new libpannellum.renderer(renderContainer, rawOverlay, config.type, config.dynamic);
                         myrenderer.init(config.haov * Math.PI / 180, config.vaov * Math.PI / 180, config.vOffset * Math.PI / 180, renderInitCallback);
                         var data = myrenderer.render(config.pitch * Math.PI / 180, config.yaw * Math.PI / 180, config.hfov * Math.PI / 180, {returnImage: true});
@@ -1401,6 +1400,7 @@ function createHotSpots() {
                         overlay.style.position = 'absolute';
                         renderContainer.insertBefore(overlay, renderContainer.firstChild);
                         overlay.style.transition = 'opacity ' + (config.sceneFadeDuration / 1000) + 's';
+                        overlay.className = 'custom-overlay';
                         overlay.style.opacity = 0;
                         window.getComputedStyle(overlay).opacity;
                         overlay.style.opacity = 1;
@@ -1408,8 +1408,10 @@ function createHotSpots() {
                     rawOverlay.src = hs.overlay;
                 }
                 div.onmouseout = function() {
-                    overlay.style.opacity = 0;
-                    renderContainer.removeChild(overlay);
+                    var to_del = renderContainer.getElementsByClassName('custom-overlay');
+                    while (to_del[0]) {
+                        to_del[0].parentNode.removeChild(to_del[0]);
+                    }
                 }
             }
 
