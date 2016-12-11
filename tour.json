@@ -130,8 +130,8 @@
 					"text": "Debaty - Debaty tvoří součást tradičního klášterního vzdělání – mají za účel ověřit logické uvažování a argumentační schopnosti. Ostatní mniši kladou otázky tázané osobě, která studovala buddhistické texty a ta argumentuje na otázky."
 				},
 				{
-					"pitch": 16,
-					"yaw": 82,
+					"pitch": 8,
+					"yaw": 88,
 					"type": "info",
 					"text": "Budova školy – klášterní škola poskytuje základní, střední a vyšší vzdělání. Škola má celkem 105 studentů (45 nižší ročníky a 60 – buddhistická filosofie, vyšší ročníky).  Usilují o zavádění moderních předmětů (IT, AJ). Rozpočet školy na rok je 1 441 750RS (převažující položky: strava, platby učitelů, učebnice), příspěvek MOST ProTibet tvoří 75 % rozpočtu."
 				},
@@ -193,8 +193,8 @@
 					"text": "Vesnice Gete"
 				},
 				{
-					"pitch": 18,
-					"yaw": 180,
+					"pitch": -1,
+					"yaw": 231,
 					"type": "info",
 					"text": "Praporky - Modlitební praporky a jejich tradice vznikla již v dávném Tibetu, a pochází z tradice Bön, tehdy se však na praporky netiskly modlitby. Pět barev představuje pět elementů/živlů, nebo také pět ctností a moudrostí. Dle vyobrazených božstev je uvedena i adekvátní modlitba na daném praporku. Tradice věří, že vítr se opírá do modliteb a přání uvedených na praporku a přináší je všem bytostem. Vyvěšují se na vysoce položená a posvátná místa."
 				},
@@ -233,7 +233,7 @@
 					"yaw": 28,
 					"type": "play",
 					"text": "Spustit uvítání mnicha",
-					"audio": "tanzin.mp3"
+					"audio": "tanzin-loud.mp3"
 				},
 				{
 					"pitch": 28,
@@ -334,7 +334,7 @@
 				},
 				{
 					"pitch": -10,
-					"yaw": -65,
+					"yaw": -59,
 					"type": "info",
 					"text": "Poštovní schránka"
 				},
@@ -428,7 +428,7 @@
 					"text": "Olej a máslo"
 				},
 				{
-					"pitch": 10,
+					"pitch": 4,
 					"yaw": 40,
 					"type": "shop",
 					"text": "Tibetský ozdobný závěs – odkaz na eshop",
@@ -475,11 +475,11 @@
 					"pitch": -8,
 					"yaw": 254,
 					"type": "info",
-					"text": "Hrnec na momo - Kaskádový hrnec s otvory ve dně, kterými prochází horká pára."
+					"text": "Hrnec na momo - Kaskádový hrnec s otvory ve dně, kterými při pečení momo prochází horká pára."
 				},
 				{
 					"pitch": -8,
-					"yaw": 234,
+					"yaw": 240,
 					"type": "info",
 					"text": "Mantry - Již vybledlá mantra nahoře je mantrou čištící od zlých duchů. Ta dobře viditelná je prostým přáním do Nového roku."
 				},
@@ -497,8 +497,8 @@
 					"URL": "http://www.shop.protibet.cz/obchod/darovaci-certifikaty/certifikat-otop-na-zimu-2/"
 				},
 				{
-					"pitch": -24,
-					"yaw": 110,
+					"pitch": -18,
+					"yaw": 102,
 					"type": "info",
 					"text": "Mnišská strava - Mniši se stravují prostě a levně. Vesměs mají ve stravě kombinaci rýže, čočky, mouky, zeleniny, vajíčka. Příležitostně snědí trochu masa, které jim v krušné zimě dodá živiny."
 				},
@@ -733,7 +733,7 @@
 					"text": "Kathag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tibetskou tradici."
 				},
 				{
-					"pitch": 10,
+					"pitch": 4,
 					"yaw": -142,
 					"type": "info",
 					"text": "Thangka - Thangky jsou tradiční tibetské malby božstev rámované v brokátu. Tato forma je nejjednodušší na transport, prostě se svine a zaváže. Jednoduché přenášení obrazů bylo a je stále podstatné pro nomádské obyvatelstvo a cestující lámy."
@@ -782,14 +782,14 @@
 					"text": "Obětní misky - Obětních misek se předkládá sedm, protože sedm je příznivé číslo pro obětiny. Každé ráno se naplní čerstvou vodou a večer opět vylijí a obrátí dnem vzhůru, neboť není zdvořilé předkládat před jakékoli hosty prázdné talíře nebo misky, tím víc, jsou-li těmito \"hosty\" Buddha, bodhisattvové a božstva."
 				},
 				{
-					"pitch": 32,
-					"yaw": 80,
+					"pitch": 7,
+					"yaw": 117,
 					"type": "info",
 					"text": "Buddhistické texty - Tibetské knihy se tisknou na podlouhlé listy papíru, nesvazují se, ale jsou dány mezi pevné desky s označením titulu a ovázány látkovým čtvercem. Formát tibetských knih, tedy podlouhlé nesvázané listy, vychází z indických knih psaných na palmové listy, které se do Tibetu dostaly během začátku šíření buddhismu."
 				},
 				{
-					"pitch": 2,
-					"yaw": 166,
+					"pitch": 3,
+					"yaw": 169,
 					"type": "info",
 					"text": "Květiny – Květiny patří mezi vzácné obětiny, protože v regionu Himálaje rostou minimálně."
 				},
@@ -903,8 +903,9 @@
 				{
 					"pitch": -40,
 					"yaw": 312,
-					"type": "info",
-					"text": "Darovat"
+					"type": "donate",
+					"text": "Darovat",
+                    "URL": "http://www.protibet.cz/zapojte-se/prispejte/"
 				},
 				{
 					"pitch": -89,

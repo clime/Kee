@@ -46,7 +46,35 @@
 	</style>
 </head>
 <body>
-	<!--<embed src="tib.mp3" loop="true" width=0 height=0 autostart="true" hidden="true" />-->
+    <audio src="song1.mp3" id="myAudio" autostart="true" loop="true">
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
+    <script>
+    $(document).ready(function() {
+        document.getElementById("myAudio").loop = true;
+        document.getElementById("myAudio").autoplay = true;
+    });
+    </script>
+
+    <div style="position:absolute; bottom: 20px; right: 20px;">
+      <button id="musicOnBtn" style="display:none; width:100px;">Hudba</button>
+      <button id="musicOffBtn" style="width:100px">Bez hudby</button>
+    </div>
+    <script>
+    $(document).ready(function() {
+      $("#musicOnBtn").click(function() {
+        document.getElementById("myAudio").play();
+        $("#musicOnBtn").hide();
+        $("#musicOffBtn").show();
+      });
+      $("#musicOffBtn").click(function() {
+        document.getElementById("myAudio").pause();
+        $("#musicOnBtn").show();
+        $("#musicOffBtn").hide();
+      });
+    });
+    </script>
+
 	<iframe width="0" height="0"></iframe>
 
   <script>

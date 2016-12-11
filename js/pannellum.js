@@ -567,6 +567,11 @@ function mousePosition(event) {
  * @param {MouseEvent} event - Document mouse down event.
  */
 function onDocumentMouseDown(event) {
+    var to_del = renderContainer.getElementsByClassName('custom-overlay');
+    while (to_del[0]) {
+        to_del[0].parentNode.removeChild(to_del[0]);
+    } // remove overlays
+
     // Override default action
     event.preventDefault();
     // But not all of it
@@ -1384,6 +1389,7 @@ function createHotSpots() {
         config.hotSpots.forEach(function(hs) {
             var div = document.createElement('div');
             div.className = 'pnlm-hotspot pnlm-tooltip pnlm-sprite pnlm-' + escapeHTML(hs.type);
+            var interval = null;
 
             if (hs.overlay) {
                 div.onmouseover = function() {
@@ -1399,11 +1405,20 @@ function createHotSpots() {
                         renderContainer.removeChild(renderContainer.lastChild); //renderer also puts canvas in the container
                         overlay.style.position = 'absolute';
                         renderContainer.insertBefore(overlay, renderContainer.firstChild);
-                        overlay.style.transition = 'opacity ' + (config.sceneFadeDuration / 1000) + 's';
+                        overlay.style.transition = 'opacity ' + '2s';
                         overlay.className = 'custom-overlay';
-                        overlay.style.opacity = 0;
+                        overlay.style.opacity = 0.0;
                         window.getComputedStyle(overlay).opacity;
                         overlay.style.opacity = 1;
+                        setTimeout(function(){
+                            overlay.style.opacity = 0.25;
+                        }, 1500);
+                        interval = setInterval(function(){
+                            overlay.style.opacity = 1;
+                            setTimeout(function(){
+                                overlay.style.opacity = 0.25;
+                            }, 1500);
+                        }, 3000);
                     }
                     rawOverlay.src = hs.overlay;
                 }
@@ -1412,6 +1427,7 @@ function createHotSpots() {
                     while (to_del[0]) {
                         to_del[0].parentNode.removeChild(to_del[0]);
                     }
+                    clearInterval(interval);
                 }
             }
 
@@ -1497,7 +1513,7 @@ function createHotSpots() {
             }
 
             div.appendChild(span);
-            span.style.width = span.scrollWidth - 20 + 'px';
+            span.style.width = span.scrollWidth + 10 + 'px';
             //span.style.marginLeft = -(span.scrollWidth - 26) / 2 + 'px';
             //clime: bigger icons
             span.style.marginLeft = -(span.scrollWidth - 36) / 2 + 'px';
