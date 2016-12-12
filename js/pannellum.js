@@ -1689,7 +1689,7 @@ function createHotSpot(hs) {
             };
             div.style.cursor = 'pointer';
             span.style.cursor = 'pointer';
-            if (localStorage['visited_scenes'].indexOf(hs.sceneId) != -1) {
+            if (localStorage['visited_scenes'] && localStorage['visited_scenes'].indexOf(hs.sceneId) != -1) {
                 div.className += ' visited';
             }
         }
