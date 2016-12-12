@@ -46,19 +46,19 @@
 	</style>
 </head>
 <body>
-    <audio src="song1.mp3" id="myAudio" autostart="true" loop="true">
+    <audio src="song1-silent.mp3" id="myAudio" autostart="true" loop="true">
     <p>If you are reading this, it is because your browser does not support the audio element.</p>
     </audio>
     <script>
     $(document).ready(function() {
         document.getElementById("myAudio").loop = true;
-        document.getElementById("myAudio").autoplay = true;
+        //document.getElementById("myAudio").autoplay = true;
     });
     </script>
 
     <div style="position:absolute; bottom: 20px; right: 20px;">
-      <button id="musicOnBtn" style="display:none; width:100px;">Hudba</button>
-      <button id="musicOffBtn" style="width:100px">Bez hudby</button>
+      <button id="musicOnBtn" style="width:100px;">Zapnout hudbu</button>
+      <button id="musicOffBtn" style="display:none; width:100px">Vypnout hudbu</button>
     </div>
     <script>
     $(document).ready(function() {
@@ -87,7 +87,7 @@
 	  if (firstScene) {
 	    firstSceneParam = '&firstScene=' + firstScene;
 	  }
-    $('#scene-list').before('<iframe width="1280" height=800" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum.htm?config=tour.json'+firstSceneParam+'"></iframe>');
+    $('#scene-list').before('<iframe width="100%" height="100%" allowfullscreen style="border-style:none;" src="http://31.31.78.41:8014/pannellum.htm?config=tour.json'+firstSceneParam+'"></iframe>');
     localStorage['visited_scenes'] = firstScene;
   });
   </script>

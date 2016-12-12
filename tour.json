@@ -2,7 +2,8 @@
 	"default": {
 		"author": "ProTibet",
 		"firstScene": "RoadToKee",
-		"sceneFadeDuration": 1000
+		"sceneFadeDuration": 1000,
+        "orientationOnByDefault": true
 	},
 
 	"scenes": {
