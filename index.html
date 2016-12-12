@@ -12,10 +12,18 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link type="text/css" rel="Stylesheet" href="./css/pannellum.css"/>
+  <script type="text/javascript" src="./js/libpannellum.js"></script>
+  <script type="text/javascript" src="./js/pannellum.js"></script>
+  <script type="text/javascript" src="./js/init.js"></script>
+
 	<style  type="text/css">
     body {
       background: #701c19;
       text-align: center;
+      margin: 0px;
     }
 
     a {
@@ -43,6 +51,11 @@
     a:active {
       color: blue;
     }
+
+    #panorama {
+      width: 100%;
+      height: 100%;
+    }
 	</style>
 </head>
 <body>
@@ -52,9 +65,10 @@
     <script>
     $(document).ready(function() {
         document.getElementById("myAudio").loop = true;
-        //document.getElementById("myAudio").autoplay = true;
     });
     </script>
+
+    <div id="panorama"></div>
 
     <div style="position:absolute; bottom: 20px; right: 20px;">
       <button id="musicOnBtn" style="width:100px;">Zapnout hudbu</button>
@@ -75,8 +89,6 @@
     });
     </script>
 
-	<!--<iframe width="0" height="0"></iframe>-->
-
   <script>
   $(document).ready(function() {
     function getURLParameter(name) {
@@ -87,10 +99,11 @@
 	  if (firstScene) {
 	    firstSceneParam = '&firstScene=' + firstScene;
 	  }
-    $('#scene-list').before('<iframe width="100%" height="100%" allowfullscreen style="border-style:none;" src="http://www.protibet.cz/kee/pannellum.htm?config=tour.json'+firstSceneParam+'"></iframe>');
-    localStorage['visited_scenes'] = firstScene;
+    //$('#scene-list').before('<iframe width="100%" height="100%" allowfullscreen style="border-style:none;" src="http://www.protibet.cz/kee/pannellum.htm?config=tour.json'+firstSceneParam+'"></iframe>');
+    //localStorage['visited_scenes'] = firstScene;
   });
   </script>
+
 
   <div id="scene-list">
     <!--<a href="?firstScene=RoadToKee">Cesta do kláštera Ki</a><br/>
