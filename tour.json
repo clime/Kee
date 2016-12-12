@@ -2,8 +2,7 @@
 	"default": {
 		"author": "ProTibet",
 		"firstScene": "RoadToKee",
-		"sceneFadeDuration": 1000,
-        "orientationOnByDefault": true
+		"sceneFadeDuration": 1000
 	},
 
 	"scenes": {
@@ -82,12 +81,6 @@
 					"text": "Políčko, pěstování, zavlažování - Většina místních obyvatel této oblasti se zabývá drobným farmařením, které je v nadmořské výšce 3500 m n. m. ztíženo zkráceným vegetačním obdobím na 4 měsíce. Místní farmáři pěstují brambory, hrášek, listovou zeleninu, obilí. Nehostinná půda musí byt dobře zavlažována a vyživována, aby byla úrodná."
 				},
 				{
-					"pitch": 10,
-					"yaw": -32,
-					"type": "info",
-					"text": "Hora po levé straně – Spiti jako pouštní oblast"
-				},
-				{
 					"pitch": 22,
 					"yaw": 28,
 					"type": "info",
@@ -140,7 +133,7 @@
 					"pitch": -44,
 					"yaw": -102,
 					"type": "info",
-					"text": "Nádvoří pro čham - Rituální tanec, má podobně jako mnoho \"typických buddhistických tradic\" původ v předbuddhistickém tibetském náboženství bon. Téměř v každém klášteře se provádí alespoň jednou do roka a tato silná náboženská představení jsou vždy důvodem setkání a trhů pro obyvatele z širokého okolí. Ëxistuje mnoho druhů a variací čhamových tanců. V klášteře Ki se jednou za dva roky v létě provádí Gju Tor - Devět obětin, který je zasvěcen božstvu Jámantakovi a jeho doprovodu."
+					"text": "Nádvoří pro čham - Rituální tanec, má podobně jako mnoho \"typických buddhistických tradic\" původ v předbuddhistickém tibetském náboženství bon. Téměř v každém klášteře se provádí alespoň jednou do roka a tato silná náboženská představení jsou vždy důvodem setkání a trhů pro obyvatele z širokého okolí. Existuje mnoho druhů a variací čhamových tanců. V klášteře Ki se jednou za dva roky v létě provádí Gju Tor - Devět obětin, který je zasvěcen božstvu Jámantakovi a jeho doprovodu."
 				},
 				{
 					"pitch": -2,
@@ -185,7 +178,7 @@
 					"pitch": -18,
 					"yaw": 130,
 					"type": "info",
-					"text": "Stupa - rituály"
+					"text": "Stupa - příbytek ochranného božstva"
 				},
 				{
 					"pitch": -17,
@@ -203,7 +196,7 @@
 					"pitch": -18,
 					"yaw": 252,
 					"type": "info",
-					"text": "Oheň, rituály, vonné bylinky - Na tomto vrcholku probíhají rituály, při kterých se pálí vonné bylinky, mouka a další substance, jejichž cílem je nakrmit bytosti tzv. pojídače pachů. Jedná se o ochranné a očistné rituály."
+					"text": "Oheň, rituály, vonné bylinky - Na tomto vrcholku probíhají rituály, při kterých se pálí vonné bylinky, mouka a další substance. Cílem je obětovat ochráncům nauk. Jedná se o ochranné a očistné rituály."
 				},
 				{
 					"pitch": -10,
@@ -288,7 +281,7 @@
 					"pitch": 20,
 					"yaw": -50,
 					"type": "info",
-					"text": "Lochen Tulku Rinpoche – je 19. inkarnací velkého překladatele Rincehn Sangpa (958 – 1055), který je od počátku držitelem trůnu v klášteře Ki. Patří mezi jedny z největších duchovních učitelů svého regionu a jeho historická vtělení jsou známá v tibetské buddhistické tradici školy Gelugpa široko daleko."
+					"text": "Lochen Tulku Rinpoče – je 19. inkarnací velkého překladatele Rincehn Sangpa (958 – 1055), který je od počátku držitelem trůnu v klášteře Ki. Patří mezi jedny z největších duchovních učitelů svého regionu a jeho historická vtělení jsou známá v tibetské buddhistické tradici školy Gelugpa široko daleko."
 				},
 				{
 					"pitch": -24,
@@ -319,7 +312,7 @@
 					"pitch": -24,
 					"yaw": 360,
 					"type": "info",
-					"text": "Mniši v čhamových maskách - nejsem si jistá jestli jsou opravdu čamové – Adámek k tomu nic nepsal?"
+					"text": "Mniši v čhamových maskách - Masky se vyrábějí z nadrceného papíru technikou papírmaš, protože dřevěné by byly příliš těžké."
 				},
 				{
 					"pitch": -22,
@@ -636,7 +629,7 @@
 					"pitch": -22,
 					"yaw": 12,
 					"type": "info",
-					"text": "Púdža - modlitby mnichů. Průběh ranní Púdžy: chrám se ráno otevře a sejdou se zde starší i mladší mniši. Začnou recitovat určité sutry (buddhistické texty) a rytmický zpěv probíhá minimálně hodinu, spíše dvě. Při těchto zpěvech se používají i rituální předměty jako je zvonek (dilbu) a dorje, bubny, trumpetky, činely. V průběhu ranní Púdžy se nalévá slaný čaj a snídá pražený ječmen, který je mnichům servírován v průběhu mladšími."
+					"text": "Púdža - modlitby mnichů. Průběh ranní Púdžy: chrám se ráno otevře a sejdou se zde starší i mladší mniši. Začnou recitovat určité sutry (buddhistické texty) a rytmický zpěv probíhá minimálně hodinu, spíše dvě. Při těchto zpěvech se používají i rituální předměty jako je zvonek (dilbu) a dordže, bubny, trumpetky, činely. V průběhu ranní Púdžy se nalévá slaný čaj a snídá pražený ječmen, který je mnichům servírován v průběhu mladšími."
 				},
 				{
 					"pitch": -22,
@@ -701,19 +694,19 @@
 					"pitch": -30,
 					"yaw": -3,
 					"type": "info",
-					"text": "Dilbu a Dorje - Dorje je rituální předmět, který se používá dohromady se zvonkem neboli Dilbu. Symbolizuje nezničitelnou povahu moudrosti a podstaty mysli."
+					"text": "Dilbu a Dordže - Dordže je rituální předmět, který se používá dohromady se zvonkem neboli Dilbu. Dordže symbolizuje nezničitelnou povahu moudrosti a podstaty mysli a Dilbu je snoubením mužského (horní část) a ženského (dolní část) principu."
 				},
 				{
 					"pitch": -20,
 					"yaw": 6,
 					"type": "info",
-					"text": "Váza – Rituální předmět využívaný při tantrických rotelech pro požehnání."
+					"text": "Váza – Rituální předmět využívaný při tantrických rituálech pro požehnání."
 				},
 				{
 					"pitch": -18,
 					"yaw": 36,
 					"type": "info",
-					"text": "Trůn - Čestné místo pro Rinpocheho – na obrázku mladičký Lochen Tulku Rinpoche."
+					"text": "Trůn - Čestné místo pro Rinpočeho – na obrázku mladičký Lochen Tulku Rinpoče."
 				},
 				{
 					"pitch": -18,
@@ -731,7 +724,7 @@
 					"pitch": -18,
 					"yaw": 100,
 					"type": "info",
-					"text": "Kathag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tibetskou tradici."
+					"text": "Khatag - bílý šál zdobený 8 šťastnými symboly, který se nabízí vysoce postaveným duchovním jako symbol úcty a uznání. Daruje se také na oltáře a posvátná místa. Jedná se o tibetskou tradici."
 				},
 				{
 					"pitch": 4,
@@ -846,6 +839,12 @@
 					"text": "Vesnice Rangrik"
 				},
 				{
+					"pitch": -13,
+					"yaw": -223,
+					"type": "info",
+					"text": "Klášterní škola Kowang – Klášterní škola pro dívky, kterou od roku 2006 podporují čeští dárci."
+				},
+				{
 					"pitch": -21,
 					"yaw": 120,
 					"type": "info",
@@ -882,6 +881,12 @@
 					"type": "scene",
 					"text": "Hlavní střecha",
 					"sceneId": "MainRoof"
+				},
+				{
+					"pitch": 0,
+					"yaw": 95,
+					"type": "info",
+					"text": "Zimchung – bývalá rezidence Rinpočeho."
 				}
 			]
 		},
@@ -918,13 +923,13 @@
 					"pitch": 10,
 					"yaw": 170,
 					"type": "info",
-					"text": "Lochen Tulku Rinpoche – současná podoba Rinpocheho."
+					"text": "Lochen Tulku Rinpoče – současná podoba Rinpočeho."
 				},
 				{
-					"pitch": -30,
-					"yaw": 230,
+					"pitch": 3,
+					"yaw": 107,
 					"type": "info",
-					"text": "Zimchung – bývalá rezidence Rinpocheho."
+					"text": "Tantrické ornamenty – Posvátné kostěné ornamenty velkého učence Náropy na obraze."
 				},
 				{
 					"pitch": -9,
@@ -966,7 +971,7 @@
 					"pitch": -8,
 					"yaw": -10,
 					"type": "info",
-					"text": "Chrlič"
+					"text": "Makara - jedna ze tří mýtických bytostí harmonie. Tři mýtické bytosti harmonie. Vodní netvor, mořský drak, který bývá často ztotožňován s krokodýlem - čelist krokodýla, chobot slona, kly a uši divokého kance, šupinaté tělo ryby, ocas páva. Symbolizuje prvek vody a proto často jeho hlava zdobí střechy jako chrlič."
 				},
 				{
 					"pitch": -8,
